@@ -17,5 +17,5 @@ knife[:flavor] = "t2.micro"
 knife[:image] = "ami-aa06939a"
 knife[:region] = "us-west-2"
 knife[:aws_ssh_key_id] = "AWSprivatekey"
-knife[:ssh_user] = "HarrybDO"
+knife[:ssh_user] = "ec2-user"
 
