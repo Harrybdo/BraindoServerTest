@@ -1,0 +1,64 @@
+/******************************************************************
+
+Stylesheet: Main Stylesheet
+
+Here's where the magic happens. Here, you'll see we are calling in
+the separate media queries. The base mobile goes outside any query
+and is called at the beginning, after that we call the rest
+of the styles inside media queries.
+******************************************************************/
+
+@import "//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700";
+
+//
+// IMPORTING STYLES
+//
+
+// import normalize
+@import "../../bower_components/foundation/scss/normalize";
+
+// import mixins
+@import "mixins";
+
+// import foundation overrides
+@import "settings";
+
+// foundation.scss
+@import "../../bower_components/foundation/scss/foundation";
+
+// joints.scss
+@import "joints";
+
+/*
+SMALL (BASE) SIZE
+These are the small/base styles. It's what people see on their phones. If
+you set a great foundation, you won't need to add too many styles in
+the other stylesheets. Remember, keep it light: Speed is Important.
+*/
+
+// styles in small.scss
+@import "small";
+
+
+/*
+MEDIUM
+*/
+@media only screen and (min-width: 40.063em) {
+
+	// styles in medium.scss
+	@import "medium";
+
+} // end of media query
+
+/*
+LARGE
+This is the average viewing window. So Desktops, Laptops, and
+in general anyone not viewing on a mobile device. Here's where
+you can add resource intensive styles.
+*/
+@media only screen and (min-width: 64.063em) {
+
+	// styles in large.scss
+	@import "large";
+
+} // end of media query

@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+}
+body {
+  margin-top: 0.25rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  color: #4d4d54;
+  height: 100%;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+#row2, #row3, #row4 {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  display: inline-block;
+}
+.top-bar {
+  margin: 1rem 1rem;
+}
