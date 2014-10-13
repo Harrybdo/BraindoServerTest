@@ -45,6 +45,7 @@ $column-gutter: rem-calc(0);
 $font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
+$font-weight-normal: normal;
 
 $body-font-family: $font-family-sans-serif;
 $body-font-weight: $font-weight-normal;
@@ -126,30 +127,30 @@ $header-font-family: $body-font-family;
 $header-font-weight: bold;
 $header-font-style: normal;
 $header-font-color: $primary-color;
-$header-line-height: 1;
+$header-line-height: 1.5;
 $header-top-margin: .1rem;
 $header-bottom-margin: .1rem;
 $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
-$h1-font-size: rem-calc(100);
-$h2-font-size: rem-calc(37);
-$h3-font-size: rem-calc(27);
-$h4-font-size: rem-calc(23);
-$h5-font-size: rem-calc(20);
+$h1-font-size: 3.5rem;
+$h2-font-size: 3rem;
+$h3-font-size: 2.5rem;
+$h4-font-size: 2rem;
+$h5-font-size: 1.5rem;
 
-$h1-font-reduction: rem-calc(55) !default;
-$h2-font-reduction: rem-calc(50) !default;
-$h3-font-reduction: rem-calc(50) !default;
-$h4-font-reduction: rem-calc(50) !default;
-$h5-font-reduction: rem-calc(50) !default;
+// $h1-font-reduction: rem-calc(50) !default;
+// $h2-font-reduction: rem-calc(50) !default;
+// $h3-font-reduction: rem-calc(50) !default;
+// $h4-font-reduction: rem-calc(50) !default;
+// $h5-font-reduction: rem-calc(50) !default;
 
 
 // These control how subheaders are styled.
-$subheader-line-height: 1.4;
+//$subheader-line-height: 1.4;
 $subheader-font-color: scale-color($header-font-color, $lightness: 35%);
 $subheader-font-weight: $font-weight-normal;
-$subheader-top-margin: .2rem;
+$subheader-top-margin: .1rem;
 $subheader-bottom-margin: .1rem;
 
 // A general <small> styling
@@ -160,10 +161,10 @@ $subheader-bottom-margin: .1rem;
 $paragraph-font-family: $font-family-sans-serif;
 $paragraph-font-weight: $font-weight-normal;
 $paragraph-font-size: 1rem;
-$paragraph-line-height: 1.6;
-$paragraph-margin-bottom: rem-calc(10);
-$paragraph-aside-font-size: rem-calc(14);
-$paragraph-aside-line-height: 1.35;
+$paragraph-line-height: 1.5rem;
+$paragraph-margin-bottom: .2rem;
+$paragraph-aside-font-size: .8rem;
+$paragraph-aside-line-height: 1.5rem;
 $paragraph-aside-font-style: italic;
 $paragraph-text-rendering: optimizeLegibility;
 
@@ -178,10 +179,10 @@ $paragraph-text-rendering: optimizeLegibility;
 // $anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);
 
 // We use these to style the <hr> element
-$hr-border-width: 2px;
+$hr-border-width: .1rem;
 $hr-border-style: solid;
 $hr-border-color: $primary-color;
-$hr-margin: rem-calc(10);
+$hr-margin: .1rem;
 
 // We use these to style lists
 // $list-style-position: outside;
@@ -553,19 +554,19 @@ $block-grid-media-queries: true;
 // $include-html-inline-list-classes: $include-html-classes;
 
 // We use this to control the margins and padding of the inline list.
-$inline-list-top-margin: 0;
-$inline-list-opposite-margin: rem-calc(0);
-$inline-list-bottom-margin: rem-calc(5);
-$inline-list-default-float-margin: rem-calc(0);
-$inline-list-default-float-list-margin: rem-calc(5);
-$inline-list-padding: rem-calc(0);
+//$inline-list-top-margin: 0;
+//$inline-list-opposite-margin: rem-calc(0);
+//$inline-list-bottom-margin: rem-calc(5);
+//$inline-list-default-float-margin: rem-calc(0);
+//$inline-list-default-float-list-margin: rem-calc(5);
+//$inline-list-padding: rem-calc(0);
 
 // We use this to control the overflow of the inline list.
 // $inline-list-overflow: hidden;
 
 // We use this to control the list items
-// $inline-list-display: block;
- $inline-list-float:right;
+$inline-list-display: block;
+// $inline-list-float:right;
 
 
 // We use this to control any elments within list items
@@ -880,27 +881,27 @@ $inline-list-padding: rem-calc(0);
 // $include-html-reveal-classes: $include-html-classes;
 
 // We use these to control the style of the reveal overlay.
-$reveal-overlay-bg: rgba($black, .45);
+$reveal-overlay-bg: rgba(#000000, .45);
 // $reveal-overlay-bg-old: #000;
 
 // We use these to control the style of the modal itself.
  $reveal-modal-bg: #52a369;
  $reveal-position-top: rem-calc(0);
  $reveal-default-width: 100%;
-// $reveal-modal-padding: rem-calc(20);
+ $reveal-modal-padding: 2rem;
 // $reveal-box-shadow: 0 0 10px rgba(#000,.4);
 
 // We use these to style the reveal close button
-$reveal-close-font-size: rem-calc(40);
-$reveal-close-top: rem-calc(0);
-$reveal-close-side: rem-calc(10);
-$reveal-close-color: $white;
+$reveal-close-font-size: 2rem;
+$reveal-close-top: 2rem;
+$reveal-close-side: 2rem;
+$reveal-close-color: #FFFFFF;
 
-// $reveal-close-weight: bold;
+ $reveal-close-weight: bold;
 
 // We use these to control the modal border
 // $reveal-border-style: solid;
-$reveal-border-width: 0px;
+$reveal-border-width: 0rem;
 // $reveal-border-color: #666;
 
 // $reveal-modal-class: "reveal-modal";
@@ -1142,20 +1143,20 @@ $reveal-border-width: 0px;
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-// $topbar-bg-color: #333;
+ $topbar-bg-color: #FFFFFF;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
-// $topbar-height: 45px;
-// $topbar-margin-bottom: 0;
+ $topbar-height: 3rem;
+ $topbar-margin-bottom: 0;
 
 // Controlling the styles for the title in the top bar
 // $topbar-title-weight: normal;
-// $topbar-title-font-size: rem-calc(17);
+$topbar-title-font-size: 2rem;
 
 // Style the top bar dropdown elements
 // $topbar-dropdown-bg: #333;
-// $topbar-dropdown-link-color: #fff;
+// $topbar-dropdown-link-color: #198599;
 // $topbar-dropdown-link-bg: #333;
 // $topbar-dropdown-link-weight: normal;
 // $topbar-dropdown-toggle-size: 5px;
@@ -1163,12 +1164,12 @@ $reveal-border-width: 0px;
 // $topbar-dropdown-toggle-alpha: 0.4;
 
 // Set the link colors and styles for top-level nav
-// $topbar-link-color: #fff;
-// $topbar-link-color-hover: #fff;
+ $topbar-dropdown-link-color: #198599;
+// $topbar-link-color-hover: #0a3b44;
 // $topbar-link-color-active: #fff;
 // $topbar-link-color-active-hover: #fff;
 // $topbar-link-weight: normal;
-// $topbar-link-font-size: rem-calc(13);
+// $topbar-link-font-size: 1.5rem;
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
 // $topbar-link-bg-hover: #272727;
 // $topbar-link-bg-active: $primary-color;
@@ -1188,7 +1189,7 @@ $reveal-border-width: 0px;
 
 // Top menu icon styles
 // $topbar-menu-link-transform: uppercase;
-// $topbar-menu-link-font-size: rem-calc(13);
+// $topbar-menu-link-font-size: 3rem;
 // $topbar-menu-link-weight: bold;
 // $topbar-menu-link-color: #fff;
 // $topbar-menu-icon-color: #fff;
@@ -1196,7 +1197,7 @@ $reveal-border-width: 0px;
 // $topbar-menu-icon-color-toggled: #888;
 
 // Transitions and breakpoint styles
-// $topbar-transition-speed: 300ms;
+// $topbar-transition-speed: 500ms;
 // Using rem-calc for the below breakpoint causes issues with top bar
 // $topbar-breakpoint: #{upper-bound($medium-range)}; // Change to 9999px for always mobile layout
 // $topbar-media-query: "only screen and (min-width: #{upper-bound($medium-range)})";

@@ -8,8 +8,6 @@ and is called at the beginning, after that we call the rest
 of the styles inside media queries.
 ******************************************************************/
 
-@import "//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700";
-
 //
 // IMPORTING STYLES
 //
@@ -37,8 +35,46 @@ the other stylesheets. Remember, keep it light: Speed is Important.
 */
 
 // styles in small.scss
-@import "small";
+html{
+	font-size:14px;
+}
 
+.expertiseBlockSlider{
+	display:none;
+	margin: 0px;
+	height: 5rem; 
+	margin: 0 auto 0 auto;
+	text-align:center;
+	background-color: transparent;
+}
+
+div.expertiseBlock{
+	clear: both;
+	margin: auto auto;
+	text-align:center;
+	margin-top: 0.1rem;
+	padding-top: 0.5rem;
+	color: white;
+	height:2.25rem;
+	width:90%;
+	
+	background: #6ebc25; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #6ebc25 0%, #5caaa8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#6ebc25), color-stop(100%,#5caaa8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg,  #6ebc25 0%,#5caaa8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg,  #6ebc25 0%,#5caaa8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg,  #6ebc25 0%,#5caaa8 100%); /* IE10+ */
+	background: linear-gradient(45deg,  #6ebc25 0%,#5caaa8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ebc25', endColorstr='#5caaa8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#enableModal{
+	padding: 0;
+}
+
+h1{
+	text-align:center;
+}
 
 /*
 MEDIUM
@@ -46,7 +82,29 @@ MEDIUM
 @media only screen and (min-width: 40.063em) {
 
 	// styles in medium.scss
-	@import "medium";
+	img{
+	max-width:60%;
+	height:auto;
+	}
+	div.expertiseBlock{
+		text-align:center;
+		margin: -5px 10px;
+		padding-top: 65px;
+		margin-bottom: 20px;
+		color: white;
+		height:150px;
+		width:150px;
+		
+		background: #6ebc25; /* Old browsers */
+		background: -moz-linear-gradient(45deg,  #6ebc25 0%, #5caaa8 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#6ebc25), color-stop(100%,#5caaa8)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(45deg,  #6ebc25 0%,#5caaa8 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(45deg,  #6ebc25 0%,#5caaa8 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(45deg,  #6ebc25 0%,#5caaa8 100%); /* IE10+ */
+		background: linear-gradient(45deg,  #6ebc25 0%,#5caaa8 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ebc25', endColorstr='#5caaa8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	}
+
 
 } // end of media query
 
@@ -59,6 +117,27 @@ you can add resource intensive styles.
 @media only screen and (min-width: 64.063em) {
 
 	// styles in large.scss
-	@import "large";
+	img{
+	max-width:60%;
+	height:auto;
+	}
+	div.expertiseBlock{
+		text-align:center;
+		margin: -5px 10px;
+		padding-top: 65px;
+		margin-bottom: 20px;
+		color: white;
+		height:150px;
+		width:150px;
+		
+		background: #6ebc25; /* Old browsers */
+		background: -moz-linear-gradient(45deg,  #6ebc25 0%, #5caaa8 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#6ebc25), color-stop(100%,#5caaa8)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(45deg,  #6ebc25 0%,#5caaa8 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(45deg,  #6ebc25 0%,#5caaa8 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(45deg,  #6ebc25 0%,#5caaa8 100%); /* IE10+ */
+		background: linear-gradient(45deg,  #6ebc25 0%,#5caaa8 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ebc25', endColorstr='#5caaa8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	}
 
 } // end of media query

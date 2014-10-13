@@ -19,6 +19,9 @@
 					</footer> <!-- end .footer -->
 
 				</div> <!-- end #container -->
+
+				  <a class="exit-off-canvas"></a>
+
 			</div> <!-- end .inner-wrap -->
 		</div> <!-- end .off-canvas-wrap -->			
 		<?php wp_footer(); ?>

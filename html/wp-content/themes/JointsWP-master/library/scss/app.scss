@@ -2,15 +2,22 @@ html{
 	height:100%;
 }
 body{
-	margin-top:0.25rem;
-	padding-left: 0.25rem;
-	padding-right: 0.25rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 	color:#4d4d54;
 	height:100%;
 }
 img{
 	width:100%;
 	height:auto;
+}
+
+.entry-content{
+	padding: 0 0 0 1rem;
+}
+
+aside{
+	text-align:center;
 }
 
 #row2 , #row3, #row4{
@@ -24,5 +31,11 @@ ul{
 }
 
 .top-bar{
-	margin: 1rem 1rem;
+	.right{
+		padding: 1rem 1rem;
+	}
+
+	.left{
+		padding: 1rem 0 0 1rem; 
+	}
 }
