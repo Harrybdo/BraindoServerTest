@@ -4,6 +4,7 @@
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" <?php language_attributes(); ?>> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" <?php language_attributes(); ?>> <![endif]-->
 <!--[if gt IE 8]><!--> <html <?php language_attributes(); ?>> <!--<![endif]-->
+<!--[if lt IE 9]><script src="<?php echo get_template_directory_uri(); ?>/bower_components/html5shiv/dist/html5shiv.js"></script><![endif]-->
 
 	<head>
 		<meta charset="utf-8">
@@ -28,6 +29,7 @@
 
   		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 		<?php wp_head(); ?>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
 	</head>
 
 	<body <?php body_class(); ?>>
@@ -38,23 +40,20 @@
 					 <!-- Logo+Nav Row-->
 			    <div class="row" id="row1">
 			      <div class="small-12 large-12 columns">
-
 			        <div class="show-for-medium-up">
-			          <nav class="top-bar" data-topbar role="navigation">
-			            <!--Title Area-->
-			            <ul class="title-area">
-			            	<li><img src="<?php bloginfo('stylesheet_directory'); ?>/library/images/BrainDo_logo_full.png" alt="logo" id="topLogo"></a></li>
-			            </ul><!-- end Title Area -->
-
-			            <!-- Right Nav Section -->
-			            <ul class="right text-centered inline-list">
-			              <li><a href="#">Services</a></li>
-			              <li><a href="#">Work</a></li>
-			              <li><a href="#">About Us</a></li>
-			              <li><a href="#">Blog</a></li>
-			              <li><a href="#">Contact Us</a></li>
-			            </ul>
-			          </nav><!-- end topNav -->
+			          	<nav class="top-bar" data-topbar role="navigation">
+			          		<ul class="title-area">
+			          			<img src="<?php echo get_template_directory_uri(); ?>/library/images/braindo_logo_full.png">
+			          		</ul>
+			            	<!-- Right Nav Section -->
+				            <ul class="right inline-list">
+				              <li><a href="#">Services&nbsp;</a></li>
+				              <li><a href="#">Work&nbsp;</a></li>
+				              <li><a href="#">About Us&nbsp;</a></li>
+				              <li><a href="#">Blog&nbsp;</a></li>
+				              <li><a href="#">Contact Us</a></li>
+				            </ul>
+			            </nav><!-- end topNav -->
 			        </div><!-- MEDIUM-UP NAV -->
 
 			        <div class="show-for-small-only">
@@ -89,7 +88,7 @@
 
 			        </div><!-- SMALL ONLY NAV -->  
 
-			      </div><!-- end nav -->
+			      </div><!-- end small/large 12 -->
 
 			    </div><!-- end row1 div -->
 				<!-- NAV ENDED -->

@@ -4,13 +4,13 @@
 					
 						    <div class="row" id="row4">
 						    	<div class="large-5 small-12 columns" id="footerLeft">
-						    		<h5><span style="letter-spacing:0.1rem;">Digital Partners, <span style="color: #5db221">Strategic Solutions.</span></span></h5>
+						    		<h4><span style="letter-spacing:0.1rem;">Digital Partners, <span style="color: #5db221">Strategic Solutions.</span></span></h4>
 						    	</div> 
 							    <div class="large-7 small-12 columns" id="footerRight">
 							        <ul class="text-center">
-							        	<li>2014 BrainDo | </li>
-							        	<li>Privacy | </li>
-							        	<li>Terms & Conditions | </li>
+							        	<li>2014 BrainDo&nbsp;|&nbsp;</li>
+							        	<li>Privacy&nbsp;|&nbsp;</li>
+							        	<li>Terms & Conditions&nbsp;|&nbsp;</li>
 							        	<li><u>215-000-000</u></li>
 							      	</ul>
 							    </div>

@@ -35,8 +35,17 @@ the other stylesheets. Remember, keep it light: Speed is Important.
 */
 
 // styles in small.scss
-html{
-	font-size:14px;
+body,html{
+	font-size:16px;
+	height:100%;
+	color:#878787;
+}
+
+p.byline{
+	font-size:.75rem;
+}
+.off-canvas-wrap, .inner-wrap{
+	height:100%
 }
 
 .expertiseBlockSlider{
@@ -68,23 +77,69 @@ div.expertiseBlock{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ebc25', endColorstr='#5caaa8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-#enableModal{
-	padding: 0;
+.top-bar{
+	height:3rem;
+	margin-bottom:0;
+	padding-bottom:0;
+
+	ul.right{
+		padding-top:1rem;
+		padding-right: 1rem;
+	}
+	ul.left{
+		padding-left:1rem;
+		padding-top:1rem;
+	}
 }
 
-h1{
+h1,h2,h3,h4,h5{
 	text-align:center;
+}
+
+#content p{
+	margin-left:1rem;
+	margin-right:1rem;
+}
+
+footer ul{
+	margin: 0 auto;
+	font-size:.6rem;
+	text-align:center;
+
+	li{
+		display:inline-block;
+	}
 }
 
 /*
 MEDIUM
 */
 @media only screen and (min-width: 40.063em) {
-
 	// styles in medium.scss
 	img{
-	max-width:60%;
-	height:auto;
+		max-width:15rem;
+		height:auto;
+	}
+
+	html{
+		font-size:16px;
+	}
+
+	.top-bar ul.right{
+		padding-top:3rem;
+		font-size: 1.25rem;
+		height:100px;
+	}
+
+	footer{ 
+		text-align: center;
+		ul{
+			margin: 0 auto;
+			font-size:1rem;
+			li{
+				display:inline-block;
+			}
+		}
 	}
 	div.expertiseBlock{
 		text-align:center;
@@ -110,16 +165,15 @@ MEDIUM
 
 /*
 LARGE
-This is the average viewing window. So Desktops, Laptops, and
-in general anyone not viewing on a mobile device. Here's where
-you can add resource intensive styles.
 */
 @media only screen and (min-width: 64.063em) {
 
-	// styles in large.scss
 	img{
-	max-width:60%;
-	height:auto;
+		max-width:15rem;
+		height:auto;
+	}
+	html{
+		font-size:16px;
 	}
 	div.expertiseBlock{
 		text-align:center;

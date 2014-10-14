@@ -2725,8 +2725,8 @@ div.icon-bar {
   width: auto; }
 
 .inline-list {
-  margin: 0 auto 1.0625rem auto;
-  margin-left: -1.375rem;
+  margin: 0 auto 0 auto;
+  margin-left: 0.5rem;
   margin-right: 0;
   padding: 0;
   list-style: none;
@@ -2734,7 +2734,7 @@ div.icon-bar {
   .inline-list > li {
     list-style: none;
     float: left;
-    margin-left: 1.375rem;
+    margin-left: 0;
     display: block; }
     .inline-list > li > * {
       display: block; }
@@ -3910,7 +3910,7 @@ p {
     font-size: 1.21875rem;
     line-height: 1.6; }
   p aside {
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     font-style: italic; }
 
@@ -3930,22 +3930,22 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 0; }
 
 h1 {
-  font-size: 2.875rem; }
+  font-size: 2.5rem; }
 
 h2 {
-  font-size: 2.375rem; }
+  font-size: 2rem; }
 
 h3 {
-  font-size: 2.1875rem; }
-
-h4 {
-  font-size: 1.6875rem; }
-
-h5 {
   font-size: 1.5rem; }
 
+h4 {
+  font-size: 0.8rem; }
+
+h5 {
+  font-size: 0.87rem; }
+
 h6 {
-  font-size: 1rem; }
+  font-size: 0.69rem; }
 
 .subheader {
   line-height: 1.4;
@@ -4083,17 +4083,17 @@ blockquote, blockquote p {
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.5; }
   h1 {
-    font-size: 3.5rem; }
+    font-size: 4rem; }
   h2 {
     font-size: 3rem; }
   h3 {
-    font-size: 2.5rem; }
-  h4 {
     font-size: 2rem; }
+  h4 {
+    font-size: 1rem; }
   h5 {
-    font-size: 1.5rem; }
+    font-size: 0.87rem; }
   h6 {
-    font-size: 1rem; } }
+    font-size: 0.69rem; } }
 
 /*
        * Print styles.
@@ -4318,7 +4318,7 @@ meta.foundation-mq-topbar {
   width: 100%;
   background: #FFFFFF; }
   .contain-to-grid .top-bar {
-    margin-bottom: 0; }
+    margin-bottom: 1rem; }
 
 .fixed {
   width: 100%;
@@ -4337,15 +4337,15 @@ meta.foundation-mq-topbar {
       z-index: 99; }
     .fixed.expanded:not(.top-bar) .top-bar-section {
       z-index: 98;
-      margin-top: 3rem; }
+      margin-top: 8rem; }
 
 .top-bar {
   overflow: hidden;
-  height: 3rem;
-  line-height: 3rem;
+  height: 8rem;
+  line-height: 8rem;
   position: relative;
   background: #FFFFFF;
-  margin-bottom: 0; }
+  margin-bottom: 1rem; }
   .top-bar ul {
     margin-bottom: 0;
     list-style: none; }
@@ -4367,11 +4367,11 @@ meta.foundation-mq-topbar {
     position: relative;
     margin: 0; }
   .top-bar .name {
-    height: 3rem;
+    height: 8rem;
     margin: 0;
     font-size: 16px; }
     .top-bar .name h1 {
-      line-height: 3rem;
+      line-height: 8rem;
       font-size: 2rem;
       margin: 0; }
       .top-bar .name h1 a {
@@ -4379,7 +4379,7 @@ meta.foundation-mq-topbar {
         color: #fff;
         width: 75%;
         display: block;
-        padding: 0 1rem; }
+        padding: 0 2.6666666667rem; }
   .top-bar .toggle-topbar {
     position: absolute;
     right: 0;
@@ -4391,16 +4391,16 @@ meta.foundation-mq-topbar {
       font-weight: bold;
       position: relative;
       display: block;
-      padding: 0 1rem;
-      height: 3rem;
-      line-height: 3rem; }
+      padding: 0 2.6666666667rem;
+      height: 8rem;
+      line-height: 8rem; }
     .top-bar .toggle-topbar.menu-icon {
       top: 50%;
       margin-top: -16px; }
       .top-bar .toggle-topbar.menu-icon a {
         height: 34px;
         line-height: 33px;
-        padding: 0 26rem 0 1rem;
+        padding: 0 27.6666666667rem 0 2.6666666667rem;
         color: #fff;
         position: relative; }
         .top-bar .toggle-topbar.menu-icon a span::after {
@@ -4410,7 +4410,7 @@ meta.foundation-mq-topbar {
           height: 0;
           top: 50%;
           margin-top: -8px;
-          right: 1rem;
+          right: 2.6666666667rem;
           box-shadow: 0 0px 0 1px #fff, 0 7px 0 1px #fff, 0 14px 0 1px #fff;
           width: 16px; }
         .top-bar .toggle-topbar.menu-icon a span:hover:after {
@@ -4449,15 +4449,15 @@ meta.foundation-mq-topbar {
       width: 100%;
       color: #fff;
       padding: 12px 0 12px 0;
-      padding-left: 1rem;
+      padding-left: 2.6666666667rem;
       font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
       font-size: 0.8125rem;
       font-weight: normal;
       text-transform: none; }
       .top-bar-section ul li > a.button {
         font-size: 0.8125rem;
-        padding-right: 1rem;
-        padding-left: 1rem;
+        padding-right: 2.6666666667rem;
+        padding-left: 2.6666666667rem;
         background-color: #1A889F;
         border-color: #156d7f;
         color: #fff; }
@@ -4491,8 +4491,8 @@ meta.foundation-mq-topbar {
           color: #fff; }
     .top-bar-section ul li > button {
       font-size: 0.8125rem;
-      padding-right: 1rem;
-      padding-left: 1rem;
+      padding-right: 2.6666666667rem;
+      padding-left: 2.6666666667rem;
       background-color: #1A889F;
       border-color: #156d7f;
       color: #fff; }
@@ -4535,7 +4535,7 @@ meta.foundation-mq-topbar {
         background: #167689;
         color: #fff; }
   .top-bar-section .has-form {
-    padding: 1rem; }
+    padding: 2.6666666667rem; }
   .top-bar-section .has-dropdown {
     position: relative; }
     .top-bar-section .has-dropdown > a:after {
@@ -4546,7 +4546,7 @@ meta.foundation-mq-topbar {
       border: inset 5px;
       border-color: transparent transparent transparent rgba(255, 255, 255, 0.4);
       border-left-style: solid;
-      margin-right: 1rem;
+      margin-right: 2.6666666667rem;
       margin-top: -4.5px;
       position: absolute;
       top: 50%;
@@ -4581,7 +4581,7 @@ meta.foundation-mq-topbar {
       height: auto; }
       .top-bar-section .dropdown li a {
         font-weight: normal;
-        padding: 8px 1rem; }
+        padding: 8px 2.6666666667rem; }
         .top-bar-section .dropdown li a.parent-link {
           font-weight: normal; }
       .top-bar-section .dropdown li.title h5 {
@@ -4589,14 +4589,14 @@ meta.foundation-mq-topbar {
         margin-top: 0; }
         .top-bar-section .dropdown li.title h5 a {
           color: #fff;
-          line-height: 1.5rem;
+          line-height: 4rem;
           display: block; }
       .top-bar-section .dropdown li.has-form {
-        padding: 8px 1rem; }
+        padding: 8px 2.6666666667rem; }
       .top-bar-section .dropdown li .button, .top-bar-section .dropdown li button {
         top: auto; }
     .top-bar-section .dropdown label {
-      padding: 8px 1rem 2px;
+      padding: 8px 2.6666666667rem 2px;
       margin-bottom: 0;
       text-transform: uppercase;
       color: #777;
@@ -4630,7 +4630,7 @@ meta.foundation-mq-topbar {
   .contain-to-grid .top-bar {
     max-width: 62.5rem;
     margin: 0 auto;
-    margin-bottom: 0; }
+    margin-bottom: 1rem; }
   .top-bar-section {
     transition: none 0 0;
     left: 0 !important; }
@@ -4647,21 +4647,21 @@ meta.foundation-mq-topbar {
       background: #272727;
       color: #fff; }
     .top-bar-section li:not(.has-form) a:not(.button) {
-      padding: 0 1rem;
-      line-height: 3rem;
+      padding: 0 2.6666666667rem;
+      line-height: 8rem;
       background: #FFFFFF; }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
         background-color: #555555;
         background: #272727; }
     .top-bar-section li.active:not(.has-form) a:not(.button) {
-      padding: 0 1rem;
-      line-height: 3rem;
+      padding: 0 2.6666666667rem;
+      line-height: 8rem;
       color: #fff;
       background: #1A889F; }
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
         background: #167689; }
     .top-bar-section .has-dropdown > a {
-      padding-right: 21rem !important; }
+      padding-right: 22.6666666667rem !important; }
       .top-bar-section .has-dropdown > a:after {
         content: "";
         display: block;
@@ -4671,7 +4671,7 @@ meta.foundation-mq-topbar {
         border-color: rgba(255, 255, 255, 0.4) transparent transparent transparent;
         border-top-style: solid;
         margin-top: -2.5px;
-        top: 1.5rem; }
+        top: 4rem; }
     .top-bar-section .has-dropdown.moved {
       position: relative; }
       .top-bar-section .has-dropdown.moved > .dropdown {
@@ -4702,13 +4702,13 @@ meta.foundation-mq-topbar {
       background: transparent;
       min-width: 100%; }
       .top-bar-section .dropdown li a {
-        color: #198599;
-        line-height: 3rem;
+        color: #fff;
+        line-height: 8rem;
         white-space: nowrap;
-        padding: 12px 1rem;
+        padding: 12px 2.6666666667rem;
         background: #333; }
       .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
-        color: #198599;
+        color: #fff;
         background: #333; }
       .top-bar-section .dropdown li:not(.has-form):hover > a:not(.button) {
         color: #fff;
@@ -4725,12 +4725,12 @@ meta.foundation-mq-topbar {
       border-top: none;
       border-right: solid 1px white;
       clear: none;
-      height: 3rem;
+      height: 8rem;
       width: 0; }
     .top-bar-section .has-form {
       background: #FFFFFF;
-      padding: 0 1rem;
-      height: 3rem; }
+      padding: 0 2.6666666667rem;
+      height: 8rem; }
     .top-bar-section .right li .dropdown {
       left: auto;
       right: 0; }
@@ -4794,7 +4794,7 @@ meta.foundation-mq-topbar {
     line-height: 2.8125rem;
     margin: 0; }
   .tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4 {
-    font-size: 1.5rem; }
+    font-size: 0.87rem; }
 
 .left-small {
   width: 2.8125rem;
@@ -5394,8 +5394,16 @@ These are the small/base styles. It's what people see on their phones. If
 you set a great foundation, you won't need to add too many styles in
 the other stylesheets. Remember, keep it light: Speed is Important.
 */
-html {
-  font-size: 14px; }
+body, html {
+  font-size: 16px;
+  height: 100%;
+  color: #878787; }
+
+p.byline {
+  font-size: 0.75rem; }
+
+.off-canvas-wrap, .inner-wrap {
+  height: 100%; }
 
 .expertiseBlockSlider {
   display: none;
@@ -5431,19 +5439,51 @@ div.expertiseBlock {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ebc25', endColorstr='#5caaa8',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */ }
 
-#enableModal {
-  padding: 0; }
+.top-bar {
+  height: 3rem;
+  margin-bottom: 0;
+  padding-bottom: 0; }
+  .top-bar ul.right {
+    padding-top: 1rem;
+    padding-right: 1rem; }
+  .top-bar ul.left {
+    padding-left: 1rem;
+    padding-top: 1rem; }
 
-h1 {
+h1, h2, h3, h4, h5 {
   text-align: center; }
+
+#content p {
+  margin-left: 1rem;
+  margin-right: 1rem; }
+
+footer ul {
+  margin: 0 auto;
+  font-size: 0.6rem;
+  text-align: center; }
+  footer ul li {
+    display: inline-block; }
 
 /*
 MEDIUM
 */
 @media only screen and (min-width: 40.063em) {
   img {
-    max-width: 60%;
+    max-width: 15rem;
     height: auto; }
+  html {
+    font-size: 16px; }
+  .top-bar ul.right {
+    padding-top: 3rem;
+    font-size: 1.25rem;
+    height: 100px; }
+  footer {
+    text-align: center; }
+    footer ul {
+      margin: 0 auto;
+      font-size: 1rem; }
+      footer ul li {
+        display: inline-block; }
   div.expertiseBlock {
     text-align: center;
     margin: -5px 10px;
@@ -5471,14 +5511,13 @@ MEDIUM
 
 /*
 LARGE
-This is the average viewing window. So Desktops, Laptops, and
-in general anyone not viewing on a mobile device. Here's where
-you can add resource intensive styles.
 */
 @media only screen and (min-width: 64.063em) {
   img {
-    max-width: 60%;
+    max-width: 15rem;
     height: auto; }
+  html {
+    font-size: 16px; }
   div.expertiseBlock {
     text-align: center;
     margin: -5px 10px;

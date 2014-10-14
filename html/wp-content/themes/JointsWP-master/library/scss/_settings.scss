@@ -133,18 +133,19 @@ $header-bottom-margin: .1rem;
 $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
-$h1-font-size: 3.5rem;
+$h1-font-size: 4rem;
 $h2-font-size: 3rem;
-$h3-font-size: 2.5rem;
-$h4-font-size: 2rem;
-$h5-font-size: 1.5rem;
+$h3-font-size: 2rem;
+$h4-font-size: 1rem;
+$h5-font-size: .87rem;
+$h6-font-size: .69rem;
 
-// $h1-font-reduction: rem-calc(50) !default;
-// $h2-font-reduction: rem-calc(50) !default;
-// $h3-font-reduction: rem-calc(50) !default;
-// $h4-font-reduction: rem-calc(50) !default;
-// $h5-font-reduction: rem-calc(50) !default;
-
+$h1-font-reduction: 1.5rem !default;
+$h2-font-reduction: 1rem !default;
+$h3-font-reduction: .5rem !default;
+$h4-font-reduction: .2rem !default;
+$h5-font-reduction: 0 !default;
+$h6-font-reduction: 0 !default;
 
 // These control how subheaders are styled.
 //$subheader-line-height: 1.4;
@@ -163,7 +164,7 @@ $paragraph-font-weight: $font-weight-normal;
 $paragraph-font-size: 1rem;
 $paragraph-line-height: 1.5rem;
 $paragraph-margin-bottom: .2rem;
-$paragraph-aside-font-size: .8rem;
+$paragraph-aside-font-size: 1rem;
 $paragraph-aside-line-height: 1.5rem;
 $paragraph-aside-font-style: italic;
 $paragraph-text-rendering: optimizeLegibility;
@@ -554,12 +555,12 @@ $block-grid-media-queries: true;
 // $include-html-inline-list-classes: $include-html-classes;
 
 // We use this to control the margins and padding of the inline list.
-//$inline-list-top-margin: 0;
-//$inline-list-opposite-margin: rem-calc(0);
-//$inline-list-bottom-margin: rem-calc(5);
-//$inline-list-default-float-margin: rem-calc(0);
-//$inline-list-default-float-list-margin: rem-calc(5);
-//$inline-list-padding: rem-calc(0);
+$inline-list-top-margin: 0;
+$inline-list-opposite-margin:0;
+$inline-list-bottom-margin: 0;
+$inline-list-default-float-margin:.5rem;
+$inline-list-default-float-list-margin: 0;
+$inline-list-padding: 0;
 
 // We use this to control the overflow of the inline list.
 // $inline-list-overflow: hidden;
@@ -1147,8 +1148,8 @@ $reveal-border-width: 0rem;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
- $topbar-height: 3rem;
- $topbar-margin-bottom: 0;
+ $topbar-height: 8rem;
+ $topbar-margin-bottom: 1rem;
 
 // Controlling the styles for the title in the top bar
 // $topbar-title-weight: normal;
@@ -1164,7 +1165,7 @@ $topbar-title-font-size: 2rem;
 // $topbar-dropdown-toggle-alpha: 0.4;
 
 // Set the link colors and styles for top-level nav
- $topbar-dropdown-link-color: #198599;
+// $topbar-dropdown-link-color: #198599;
 // $topbar-link-color-hover: #0a3b44;
 // $topbar-link-color-active: #fff;
 // $topbar-link-color-active-hover: #fff;
@@ -1176,7 +1177,7 @@ $topbar-title-font-size: 2rem;
 // $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
 // $topbar-link-font-family: $body-font-family;
 // $topbar-link-text-transform: none;
-// $topbar-link-padding: $topbar-height / 3;
+//
 
 // $topbar-button-font-size: 0.75rem;
 // $topbar-button-top: 7px;
