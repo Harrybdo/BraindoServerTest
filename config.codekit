@@ -15218,7 +15218,7 @@
 	"iconImageName": "\/html\/wp-content\/themes\/JointsWP-master\/library\/images\/BrainDo_logo_full.png"
 	},
 "projectSettings": {
-	"alwaysUseExternalServer": 1,
+	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoApplyPSLanguageSettingsStyle": 0,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
