@@ -52,7 +52,7 @@ end
 
 execute "wp-cli" do
   command "wp option update siteurl '#{node[:app][:url]}' --path='/var/www/html'"
-  #command "wp option update wordpress-https_ssl_host '#{node[:app][:secure_url]}' --path='/var/www/html'"
+  command "wp option update wordpress-https_ssl_host '#{node[:app][:secure_url]}' --path='/var/www/html'"
   command "wp plugin deactivate wordpress-https  --path='/var/www/html'"
   action :run
 end
