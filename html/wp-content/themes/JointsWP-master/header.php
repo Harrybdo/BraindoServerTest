@@ -29,7 +29,11 @@
 
   		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 		<?php wp_head(); ?>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+
+		<!-- RESPOND.JS -->
+		<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>		
+		<!-- LATO FONT -->
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body <?php body_class(); ?>>
@@ -46,36 +50,63 @@
 			          			<img src="<?php echo get_template_directory_uri(); ?>/library/images/braindo_logo_full.png">
 			          		</ul>
 			            	<!-- Right Nav Section -->
-				            <ul class="right inline-list">
-				              <li><a href="#">Services&nbsp;</a></li>
-				              <li><a href="#">Work&nbsp;</a></li>
-				              <li><a href="#">About Us&nbsp;</a></li>
-				              <li><a href="#">Blog&nbsp;</a></li>
-				              <li><a href="#">Contact Us</a></li>
-				            </ul>
+
+			            	 <?php 
+							    $navlinks = CFS()->get('top_nav_loop',21);
+							    $navlinkslength = sizeof($navlinks);
+							  ?>
+				            	<ul class="right text-center">
+							      <?php 
+							        foreach($navlinks as $link){
+								        $linktext = $link['nav_link_text'];
+								        $linkhref = $link['nav_link_href'];
+							      ?>
+								  		<li>
+								  			<a href="<?php echo $linkhref; ?>"><?php echo $linktext; ?>&nbsp;</a>
+								  		</li>
+							      <?php 
+							        }
+							      ?>
+							    </ul>
 			            </nav><!-- end topNav -->
 			        </div><!-- MEDIUM-UP NAV -->
 
 			        <div class="show-for-small-only">
 			          <nav class="top-bar" data-topbar role="navigation">
-			          	<ul class="left">
-			            	<li><a>Braindo Mobile</a></li>
+			          	<ul class="title-area">
+			          		<img src="<?php echo get_template_directory_uri(); ?>/library/images/braindo_logo_full.png">
 			            </ul><!-- end Title Area -->             
 			            <ul class="right">
-			              <!-- <li><a data-reveal-id="navModal" id="enableModal">Menu</a></li> -->
-			              <li><a class="right-off-canvas-toggle menu-icon">Menu</a></li>
+			              <a data-reveal-id="navModal">Menu</a>
 			            </ul>
 			          </nav>
 			        
 			        <div id="navModal" class="reveal-modal full-screen" data-reveal>
-			          	<div class="row" id="modal0">
+			          	<div class="row">
 			          		<div class="small-12 columns">
-			          			<p style="font-color:white;">MODAL STUFFZ IN HERE</p>
+			          			<img src="<?php echo get_template_directory_uri(); ?>/library/images/braindo_logo_full.png" id="navModalLogo">
 			          		</div>
 			          	</div>
+			          	<hr>
 			            <div class="row" id="modal1">
 			              <div class="small-12 columns">
-			              	<p>Services box can go here</p>
+			              	 <?php 
+							    $navlinks = CFS()->get('top_nav_loop',21);
+							    $navlinkslength = sizeof($navlinks);
+							  ?>
+				            	<ul class="navModalList">
+							      <?php 
+							        foreach($navlinks as $link){
+								        $linktext = $link['nav_link_text'];
+								        $linkhref = $link['nav_link_href'];
+							      ?>
+								  		<li>
+								  			<a href="<?php echo $linkhref; ?>"><?php echo $linktext; ?>&nbsp;</a>
+								  		</li>
+							      <?php 
+							        }
+							      ?>
+							    </ul>
 			              </div><!-- end small 12 -->
 			            </div>
 			            <hr>
@@ -92,13 +123,4 @@
 
 			    </div><!-- end row1 div -->
 				<!-- NAV ENDED -->
-
-
-				 <aside class="right-off-canvas-menu">
-					  <ul class="off-canvas-list">
-					    <li><label>Sidebar</label></li>
-					    <li><?php get_sidebar(); ?></li>
-					  </ul>
-				</aside>
-
-				<div id="container">
+			<div id="container">

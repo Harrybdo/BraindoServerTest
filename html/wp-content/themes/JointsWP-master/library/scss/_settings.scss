@@ -42,12 +42,13 @@ $column-gutter: rem-calc(0);
 // We use these to control various global styles
 // $body-bg: #fff;
 // $body-font-color: #222;
+$lato-font: "Lato", Arial;
 $font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 $font-weight-normal: normal;
 
-$body-font-family: $font-family-sans-serif;
+$body-font-family: $lato-font;
 $body-font-weight: $font-weight-normal;
 $body-font-style: normal;
 
@@ -60,9 +61,16 @@ $body-font-style: normal;
 // $default-float: left;
 
 // We use these as default colors throughout
-$primary-color: #1A889F;
-$secondary-color: #8AB044;
-$tertiary-color: #686868;
+$primary-color: #177d89;
+$secondary-color: #99cc33;
+$tertiary-color: #696969;
+
+$braindo-menu-red: #93230e;
+$braindo-menu-yellow: #947615;
+$braindo-menu-blue: #093138;
+$braindo-menu-green: #44650f;
+$braindo-menu-teal: #146c94;
+
 $alert-color: #f04124;
 $success-color: #43AC6A;
 $warning-color: #f08a24;
@@ -124,19 +132,19 @@ $large: $large-up;
 
 // We use these to control header font styles
 $header-font-family: $body-font-family;
-$header-font-weight: bold;
+$header-font-weight: normal;
 $header-font-style: normal;
 $header-font-color: $primary-color;
-$header-line-height: 1.5;
+$header-line-height: 1;
 $header-top-margin: .1rem;
-$header-bottom-margin: .1rem;
+$header-bottom-margin: 1rem;
 $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
 $h1-font-size: 4rem;
 $h2-font-size: 3rem;
 $h3-font-size: 2rem;
-$h4-font-size: 1rem;
+$h4-font-size: 1.35rem;
 $h5-font-size: .87rem;
 $h6-font-size: .69rem;
 
@@ -186,11 +194,11 @@ $hr-border-color: $primary-color;
 $hr-margin: .1rem;
 
 // We use these to style lists
-// $list-style-position: outside;
+$list-style-position: inside;
 $list-side-margin: 0rem;
-// $list-ordered-side-margin: 1.4rem;
+$list-ordered-side-margin: 0rem;
 // $list-side-margin-no-bullet: 0;
-// $list-nested-margin: rem-calc(20);
+$list-nested-margin: rem-calc(20);
 // $definition-list-header-weight: bold;
 // $definition-list-header-margin-bottom: .3rem;
 // $definition-list-margin-bottom: rem-calc(12);
@@ -886,15 +894,15 @@ $reveal-overlay-bg: rgba(#000000, .45);
 // $reveal-overlay-bg-old: #000;
 
 // We use these to control the style of the modal itself.
- $reveal-modal-bg: #52a369;
+ $reveal-modal-bg: rgba(#349d94, .85);
  $reveal-position-top: rem-calc(0);
  $reveal-default-width: 100%;
- $reveal-modal-padding: 2rem;
+ $reveal-modal-padding: 1rem;
 // $reveal-box-shadow: 0 0 10px rgba(#000,.4);
 
 // We use these to style the reveal close button
-$reveal-close-font-size: 2rem;
-$reveal-close-top: 2rem;
+$reveal-close-font-size: 3rem;
+$reveal-close-top: 1rem;
 $reveal-close-side: 2rem;
 $reveal-close-color: #FFFFFF;
 
