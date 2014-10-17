@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 BASE WEBSITE CONFIGURATION
 =========================
 
@@ -7,3 +8,9 @@ INCLUDES:
 1. CHEF + KNIFE.RB CONFIGURATION FILE.
 2. WORDPRESS
 3. JOINTSWP FOUNDATION 5 WORDPRESS THEME
+=======
+BaseSite
+========
+
+Basic Website configuration: Chef / AWS / WP
+>>>>>>> ee76174f448e8ce3c066893f13c15e519ea33f29
