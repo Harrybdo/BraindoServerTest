@@ -12,13 +12,13 @@ var isMedium = maxMedium&&!maxLarge;
 var isLarge = maxLarge&&!maxMedium;
 
 if(isSmall){
-	/*
+	
 	$.each($("#row3 .expertiseBlock"), function(index, value){
 		$(value).click(function(){
 			$(value).next(".show-for-small-only").children(".expertiseBlockSlider").slideToggle(500);
 		});
 	});
-	*/
+	
 	$("#enableModal").click(function(){
 		$(document).scrollTop(0);
 		$("body").bind('touchmove', function(e) {

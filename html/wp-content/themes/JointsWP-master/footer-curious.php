@@ -64,7 +64,6 @@
 
 				</div> <!-- end #container -->
 			</div> <!-- end .inner-wrap -->
-		</div> <!-- end .off-canvas-wrap -->			
 		<?php wp_footer(); ?>
 		<script src="<?php echo get_template_directory_uri(); ?>/library/js/min/app-min.js"></script>
 	</body>

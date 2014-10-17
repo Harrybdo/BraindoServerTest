@@ -17,7 +17,7 @@ $page_service_list = CFS()->get('services_list');
 <div class="row" id="title-row">
   <div class="small-12 columns">
     <div class="small-10 small-centered columns">
-      <h1 class="page-title"><?echo $page_title; ?></h1>
+      <h1 class="page-title"><?php echo $page_title; ?></h1>
     </div>
     <hr>
   </div>
@@ -51,7 +51,7 @@ $page_service_list = CFS()->get('services_list');
           <h4><?php echo $page_title;?> Services</h4>
           <ul>
             <?php foreach($page_service_list as $li){?>
-              <li><?php echo $li; ?></li>
+              <li><?php echo $li['service_item']; ?></li>
             <?php }?>
           </ul>
         </div>
@@ -97,7 +97,7 @@ $page_service_list = CFS()->get('services_list');
       $blocklength = sizeof($blocks);
       $i = 0;
     ?>
-     <ul class="large-block-grid-<?php echo $blocklength; ?> small-block-grid-1" id="expertiseBlockUL">
+     <ul class="large-block-grid-<?php echo $blocklength; ?> medium-block-grid-3 small-block-grid-1" id="expertiseBlockUL">
         <?php 
           foreach($blocks as $block){
             $no_hover_text = $block['no_hover_text'];

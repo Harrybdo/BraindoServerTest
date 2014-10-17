@@ -37,90 +37,88 @@
 	</head>
 
 	<body <?php body_class(); ?>>
+		<div class="inner-wrap">
+			<!-- BEGIN NAV -->
+				 <!-- Logo+Nav Row-->
+		    <div class="row" id="row1">
+		      <div class="small-12 columns">
+		        <div class="show-for-medium-up">
+		          	<nav class="top-bar" data-topbar role="navigation">
+		          		<ul class="title-area">
+		          			<img src="<?php echo get_template_directory_uri(); ?>/library/images/ColoredLogo.png">
+		          		</ul>
+		            	<!-- Right Nav Section -->
 
-		<div class="off-canvas-wrap" data-offcanvas>
-			<div class="inner-wrap">
-				<!-- BEGIN NAV -->
-					 <!-- Logo+Nav Row-->
-			    <div class="row" id="row1">
-			      <div class="small-12 large-12 columns">
-			        <div class="show-for-medium-up">
-			          	<nav class="top-bar" data-topbar role="navigation">
-			          		<ul class="title-area">
-			          			<img src="<?php echo get_template_directory_uri(); ?>/library/images/braindo_logo_full.png">
-			          		</ul>
-			            	<!-- Right Nav Section -->
+		            	 <?php 
+						    $navlinks = CFS()->get('top_nav_loop',21);
+						    $navlinkslength = sizeof($navlinks);
+						  ?>
+			            	<ul class="right text-center">
+						      <?php 
+						        foreach($navlinks as $link){
+							        $linktext = $link['nav_link_text'];
+							        $linkhref = $link['nav_link_href'];
+						      ?>
+							  		<li>
+							  			<a href="<?php echo $linkhref; ?>"><?php echo $linktext; ?>&nbsp;</a>
+							  		</li>
+						      <?php 
+						        }
+						      ?>
+						    </ul>
+		            </nav><!-- end topNav -->
+		        </div><!-- MEDIUM-UP NAV -->
 
-			            	 <?php 
-							    $navlinks = CFS()->get('top_nav_loop',21);
-							    $navlinkslength = sizeof($navlinks);
-							  ?>
-				            	<ul class="right text-center">
-							      <?php 
-							        foreach($navlinks as $link){
-								        $linktext = $link['nav_link_text'];
-								        $linkhref = $link['nav_link_href'];
-							      ?>
-								  		<li>
-								  			<a href="<?php echo $linkhref; ?>"><?php echo $linktext; ?>&nbsp;</a>
-								  		</li>
-							      <?php 
-							        }
-							      ?>
-							    </ul>
-			            </nav><!-- end topNav -->
-			        </div><!-- MEDIUM-UP NAV -->
-
-			        <div class="show-for-small-only">
-			          <nav class="top-bar" data-topbar role="navigation">
-			          	<ul class="title-area">
-			          		<img src="<?php echo get_template_directory_uri(); ?>/library/images/braindo_logo_full.png">
-			            </ul><!-- end Title Area -->             
-			            <ul class="right">
-			              <a data-reveal-id="navModal">Menu</a>
-			            </ul>
-			          </nav>
-			        
-			        <div id="navModal" class="reveal-modal full-screen" data-reveal>
-			          	<div class="row">
-			          		<div class="small-12 columns">
-			          			<img src="<?php echo get_template_directory_uri(); ?>/library/images/braindo_logo_full.png" id="navModalLogo">
-			          		</div>
-			          	</div>
-			          	<hr>
-			            <div class="row" id="modal1">
-			              <div class="small-12 columns">
-			              	 <?php 
-							    $navlinks = CFS()->get('top_nav_loop',21);
-							    $navlinkslength = sizeof($navlinks);
-							  ?>
-				            	<ul class="navModalList">
-							      <?php 
-							        foreach($navlinks as $link){
-								        $linktext = $link['nav_link_text'];
-								        $linkhref = $link['nav_link_href'];
-							      ?>
-								  		<li>
-								  			<a href="<?php echo $linkhref; ?>"><?php echo $linktext; ?>&nbsp;</a>
-								  		</li>
-							      <?php 
-							        }
-							      ?>
-							    </ul>
-			              </div><!-- end small 12 -->
-			            </div>
-			            <hr>
-			            <div class="row" id="modal2">
-			              <p>Social Links here?</p>
-			            </div>
-			            <a class="close-reveal-modal">&#215;</a>
-			        </div><!-- INSIDE MODAL --> 
+		        <div class="show-for-small-only">
+		          <nav class="top-bar" data-topbar role="navigation">
+		          	<ul class="title-area">
+		          			<img src="<?php echo get_template_directory_uri(); ?>/library/images/ColoredLogo.png">
+		            </ul><!-- end Title Area -->             
+		            <ul class="right">
+		              <a data-reveal-id="navModal">Meu</a>
+		            </ul>
+		          </nav>
+		        
+		        <div id="navModal" class="reveal-modal full-screen" data-reveal>
+		          	<div class="row">
+		          		<div class="small-12 columns">
+		          			<img src="<?php echo get_template_directory_uri(); ?>/library/images/ColoredLogo.png" id="navModalLogo">
+		          		</div>
+		          	</div>
+		          	<hr>
+		            <div class="row" id="modal1">
+		              <div class="small-12 columns">
+		              	 <?php 
+						    $navlinks = CFS()->get('top_nav_loop',21);
+						    $navlinkslength = sizeof($navlinks);
+						  ?>
+			            	<ul class="navModalList">
+						      <?php 
+						        foreach($navlinks as $link){
+							        $linktext = $link['nav_link_text'];
+							        $linkhref = $link['nav_link_href'];
+						      ?>
+							  		<li>
+							  			<a href="<?php echo $linkhref; ?>"><?php echo $linktext; ?>&nbsp;</a>
+							  		</li>
+						      <?php 
+						        }
+						      ?>
+						    </ul>
+		              </div><!-- end small 12 -->
+		            </div>
+		            <hr>
+		            <div class="row" id="modal2">
+		              <p>Social Links here?</p>
+		            </div>
+		            <a class="close-reveal-modal">&#215;</a>
+		        </div><!-- INSIDE MODAL --> 
 
 
-			        </div><!-- SMALL ONLY NAV -->  
+		        </div><!-- SMALL ONLY NAV -->  
 
-			      </div><!-- end small/large 12 -->
+		      </div><!-- end small/large 12 -->
 
-			    </div><!-- end row1 div -->
-				<!-- NAV ENDED -->
-			<div id="container">
+		    </div><!-- end row1 div -->
+			<!-- NAV ENDED -->
+		<div id="container">

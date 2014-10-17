@@ -20,14 +20,14 @@ get_header(); ?>
   
 <!-- Blocks Areas Of Expertise row-->
 <div class="row" id="row3">
-  <div class="large-12 small-12 columns">
+  <div class="small-12 columns">
 
   <?php 
     $blocks = CFS()->get('expertise_block_loop',21);
     $blocklength = sizeof($blocks);
     $i = 0;
   ?>
-   <ul class="large-block-grid-<?php echo $blocklength; ?> small-block-grid-1" id="expertiseBlockUL">
+   <ul class="large-block-grid-<?php echo $blocklength; ?> medium-block-grid-3 small-block-grid-1" id="expertiseBlockUL">
       <?php 
         foreach($blocks as $block){
           $no_hover_text = $block['no_hover_text'];
@@ -79,7 +79,7 @@ get_header(); ?>
   $contact_text = CFS()->get('curious_contact_text',21);
 ?>
 <div class="row" id="curious-row">
-  <div class="large-12 columns show-for-medium-up">
+  <div class="medium-12 columns show-for-medium-up">
     <span class="curious-text"><?php echo $curious_text; ?><span><span class="curious-contact-text">Contact</span>
   </div>
 </div><!-- end row3 -->
