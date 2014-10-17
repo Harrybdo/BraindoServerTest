@@ -86,9 +86,9 @@ get_header(); ?>
 
             if(strlen($list_item_href) == 0){
             ?>
-              <li><?echo $list_item_text; ?></li>
+              <li><?php echo $list_item_text; ?></li>
       <?php }else{ ?>
-              <li><a href="<?echo $list_item_href; ?>"><?echo $list_item_text; ?></a></li>
+              <li><a href="<?php echo $list_item_href; ?>"><?php echo $list_item_text; ?></a></li>
       <?php } 
           }?>
         </ul>

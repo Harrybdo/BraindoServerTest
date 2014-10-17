@@ -50,7 +50,7 @@
 							    	<hr class="hr-row">
 							        <div class="small-12 clearfix">
 							        	<p class="curious-text"><?php echo $curious_text; ?></p>
-							        	<span class="curious-contact-text"><?echo $contact_text; ?></span>
+							        	<span class="curious-contact-text"><?php echo $contact_text; ?></span>
 							        </div>
 							    </div>
 							</div><!-- end small footer -->

@@ -3,6 +3,9 @@
 Template Name: Specific Service
 */
 get_header(); 
+?>
+
+<?php
 $page_title = CFS()->get('page_title');
 $page_subtitle = CFS()->get('page_subtitle');
 $page_description = CFS()->get('page_description');
@@ -28,8 +31,8 @@ $page_service_list = CFS()->get('services_list');
       <!-- subheader + description -->
       <div class="row">
         <div class="small-12 columns">
-          <h4 class="page-subtitle"><?echo $page_subtitle; ?></h4>
-          <p class="service-description"><?echo $page_description; ?></p>
+          <h4 class="page-subtitle"><?php echo $page_subtitle; ?></h4>
+          <p class="service-description"><?php echo $page_description; ?></p>
         </div>
       </div><!-- end subheader+description -->
 
@@ -45,11 +48,11 @@ $page_service_list = CFS()->get('services_list');
       <!-- services list -->
       <div class="row">
         <div class="small-12 columns">
-          <h4><?echo $page_title;?> Services</h4>
+          <h4><?php echo $page_title;?> Services</h4>
           <ul>
-            <?foreach($page_service_list as $li){?>
-              <li><?echo $li; ?></li>
-            <?}?>
+            <?php foreach($page_service_list as $li){?>
+              <li><?php echo $li; ?></li>
+            <?php }?>
           </ul>
         </div>
       </div><!-- end service list -->
@@ -75,7 +78,7 @@ $page_service_list = CFS()->get('services_list');
     ?>
     <div class="row" id="curious-row">
       <div class="large-12 columns show-for-medium-up">
-        <span class="curious-text"><?echo $curious_text; ?></span><span class="curious-contact-text"><?echo $contact_text; ?></span>
+        <span class="curious-text"><?php echo $curious_text; ?></span><span class="curious-contact-text"><?php echo $contact_text; ?></span>
       </div>
     </div>
   </div>
