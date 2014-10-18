@@ -1,4 +1,6 @@
-Braindo_GIT_WP_FOUNDATION
+Brain.do Development Repository
 =========================
 
-BrainDo Sandbox / Development Site
+Contents:
+1. .chef + knife.rb for EC2 Server Creation Params
+2. WP with Foundation Framework (JointsWP Theme)
