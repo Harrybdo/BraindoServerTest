@@ -43,7 +43,7 @@ define('WP_SITEURL','<%= node[:app][:url] %>');
 
 /**Production**/
 
-define('DB_NAME', 'wp_sql_database'); //DATABASE NAME
+define('DB_NAME', 'BraindoDatabase'); //DATABASE NAME
 define('DB_USER', '<%= node[:mysql][:username] %>');
 define('DB_PASSWORD', '<%= node[:mysql][:server_root_password] %>');
 define('DB_HOST', '<%= node[:mysql][:host] %>');
@@ -84,7 +84,7 @@ define('NONCE_SALT',       '4#q]/+.n3UE,8xZJ%]fj;*%+!K:4HdAq>7auwQZ.tYstc}kzTlAL
  * You can have multiple installations in one database if you give each a unique
  * prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'braindo_';
+$table_prefix  = 'wp_';
 
 /**
  * WordPress Localized Language, defaults to English.
