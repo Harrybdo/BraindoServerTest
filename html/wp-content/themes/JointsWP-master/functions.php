@@ -5,20 +5,7 @@ This is where you can drop your custom functions or
 just edit things like thumbnail sizes, header images,
 sidebars, comments, ect.
 */
-<<<<<<< HEAD
-=======
 
->>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
-/*********************
-INCLUDE NEEDED FILES
-*********************/
-
-<<<<<<< HEAD
-show_admin_bar(false);
-
-
-=======
->>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 /*
 library/joints.php
 	- head cleanup (remove rsd, uri links, junk css, ect)
