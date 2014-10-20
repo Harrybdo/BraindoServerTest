@@ -5,7 +5,12 @@ This is where you can drop your custom functions or
 just edit things like thumbnail sizes, header images,
 sidebars, comments, ect.
 */
+function add_service_query_var() {
+    global $wp;
+    $wp->add_query_var('service');
+}
 
+add_filter('init', 'add_service_query_var');
 /*
 library/joints.php
 	- head cleanup (remove rsd, uri links, junk css, ect)

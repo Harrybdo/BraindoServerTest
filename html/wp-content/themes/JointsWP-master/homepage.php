@@ -38,29 +38,32 @@ $contact_text = CFS()->get('curious_contact_text',21);
 	          $no_hover_image_url = $block['no_hover_image_url'];
 	          $expanded_description = $block['expanded_description'];
 	          $hover_list_items = $block['hover_list_items'];
+	          $href = $block['href'];
 	      	?>
 	          	<li>
-		            <div class="expertiseBlock" id="expertiseBlock<?php echo $i; ?>">
-		                <div class="nohover-state">
-		                    <img src="<?php echo $no_hover_image_url; ?>">
-							<?php echo $no_hover_text; ?>
-		                </div>
-		                <div class="show-for-medium-up">
-		                	<div class="hover-state">
-		                    	<ul>
-									<?php
-									foreach($hover_list_items as $li){
-			                        	$list_item_text = $li['list_item_text'];
-			                        //$list_item_href = $list_item['list_item_link'];
-			                      	?>
-			                        	<li><?php echo $list_item_text; ?></li>
-			                        <?php 
-			                        } 
-			                        ?>
-		                    	</ul>
-		                	</div>
-		                </div>
-		            </div>
+	          		<a href="<?php echo $href;?>">
+			            <div class="expertiseBlock" id="expertiseBlock<?php echo $i; ?>">
+			                <div class="nohover-state">
+			                    <img src="<?php echo $no_hover_image_url; ?>">
+								<?php echo $no_hover_text; ?>
+			                </div>
+			                <div class="show-for-medium-up">
+			                	<div class="hover-state">
+			                    	<ul>
+										<?php
+										foreach($hover_list_items as $li){
+				                        	$list_item_text = $li['list_item_text'];
+				                        //$list_item_href = $list_item['list_item_link'];
+				                      	?>
+				                        	<li><?php echo $list_item_text; ?></li>
+				                        <?php 
+				                        } 
+				                        ?>
+			                    	</ul>
+			                	</div>
+			                </div>
+			            </div>
+	          		</a>
 		            <div class="show-for-small-only">
 		              <div class="expertiseBlockSlider">
 		                Stuff here

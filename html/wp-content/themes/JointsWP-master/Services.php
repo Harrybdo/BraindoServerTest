@@ -6,10 +6,33 @@ get_header();
 $blocks = CFS()->get('expertise_block_loop',21);
 $blocklength = sizeof($blocks);
 $i = 0;
-
 $blocks = CFS()->get('expertise_block_loop',21);
-$block = $blocks[1]; //NEED TO CHANGE BASED ON TAB CLICKED
-$no_hover_text = $block['no_hover_text'];
+$block = $blocks[0]; //set to strategy by default 
+
+if ($service= get_query_var('service') ) {
+    switch($service){
+	    case "strategy":
+	    	$block = $blocks[0];
+	    	break;
+	    case "analytics":
+	    	$block = $blocks[1];
+	    	break;
+	    case "development":
+	    	$block = $blocks[2];
+	    	break;
+	    case "search":
+	    	$block = $blocks[3];
+	    	break;
+	    case "creative":
+	    	$block = $blocks[4];
+	    	break;
+		default: 
+	    	$block = $blocks[0];
+			break;
+    }
+
+}
+$service_name = $block['no_hover_text'];
 $expanded_description = $block['expanded_description'];
 $block_list_items = $block['hover_list_items'];
 ?>
@@ -57,8 +80,8 @@ $block_list_items = $block['hover_list_items'];
 									?>
 		                    	</ul>
 		                	</div>
-		              </div>
-		            </div>
+		                </div>
+	            	</div>
 				</li>
 	
 			<?php 
@@ -72,36 +95,50 @@ $block_list_items = $block['hover_list_items'];
 
 </div><!--end row3 div-->
 
-<div class="show-for-medium-up">
-  	<div class="row" id="expertise-expanded">
-    	<div class="medium-12 columns">    
-			<div class="medium-6 columns">
-				<p class="extended-deescription-title"><?php echo $no_hover_text; ?></p>
-				<p class="extended-description"><?php echo $expanded_description; ?></p>
-      		</div><!-- end first 6-->
-	  	
-	  	<div class="medium-6 columns">
-        	<ul class="extended-list-items">
-				<?php
-				foreach($block_list_items as $li){
-	            	$list_item_text = $li['list_item_text'];
-					$list_item_href = $li['list_item_link'];
-	
-					if(strlen($list_item_href) == 0){
-	            ?>
-	              		<li><?php echo $list_item_text; ?></li>
-				  	<?php 
-					}else{ 
-					?>
-						<li><a href="<?php echo $list_item_href; ?>"><?php echo $list_item_text; ?></a></li>
-					<?php 
-					} 
-				}
-					?>
-			</ul>
-      	</div><!-- end second 6-->
-    </div><!-- end medium-12-->
-  </div><!-- end expertise-expanded row-->
-</div><!-- end medium up -->
-
+<?php 
+for($i = 0; $i < $blocklength; $i++){
+	$block = $blocks[$i];
+?>
+<div class="servicePanel" id="servicePanel<?php echo $blocks[$i]['no_hover_text']; ?>">
+	<div class="show-for-medium-up">
+	  	<div class="row" id="expertise-expanded">
+	    	<div class="medium-12 columns">    
+				
+				<div class="medium-6 columns">
+					<p class="extended-description-title"><?php echo $block['no_hover_text']; ?></p>
+					<p class="extended-description"><?php echo $block['expanded_description']; ?></p>
+	      		</div><!-- end first 6-->
+		  	
+		  		<div class="medium-6 columns">
+		        	<ul class="extended-list-items">
+						<?php
+						foreach($block['hover_list_items'] as $li){
+			            	$list_item_text = $li['list_item_text'];
+							$list_item_href = $li['list_item_link'];
+			
+							if(strlen($list_item_href) == 0){
+			            ?>
+			              		<li><?php echo $list_item_text; ?></li>
+						  	<?php 
+							}else{ 
+							?>
+								<li><a href="<?php echo $list_item_href; ?>"><?php echo $list_item_text; ?></a></li>
+							<?php 
+							} 
+						}
+							?>
+					</ul>
+	      		</div><!-- end second 6-->
+	    	</div><!-- end medium-12-->
+	  	</div><!-- end expertise-expanded row-->
+	</div><!-- end medium up -->
+</div>
+<?php 
+}
+?>
+<script>
+	$(document).ready(function(){
+		_serviceDisplay("service");
+	});
+</script>
 <?php get_footer('we-get-it-done'); ?>

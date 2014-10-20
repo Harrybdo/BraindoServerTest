@@ -1,7 +1,4 @@
 <?php
-/** Enable W3 Total Cache */
-define('WP_CACHE', false); // Added by W3 Total Cache
-
 /**
  * The base configurations of the WordPress.
  *
@@ -16,41 +13,24 @@ define('WP_CACHE', false); // Added by W3 Total Cache
  *
  * @package WordPress
  */
-
-// TEMP REMOTE DB CONNECTION
-//define('WP_HOME','http://brain.do');
-//define('WP_SITEURL','http://brain.do');
+error_reporting(E_ALL); ini_set('display_errors', 1);
+define( 'WP_DEBUG', true);
 
 define('WP_HOME','http://54.68.100.221');
 define('WP_SITEURL','http://54.68.100.221');
 
-
-
-/**Temporary**/
-
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-//define('DB_NAME', '770273_lsqa');
+define('DB_NAME', 'BraindoDatabase');
 
 /** MySQL database username */
-//define('DB_USER', '770273_lsqadba');
+define('DB_USER', 'admin');
 
 /** MySQL database password */
-//define('DB_PASSWORD', '2hAspAha');
+define('DB_PASSWORD', 'Pssw0rd#1');
 
 /** MySQL hostname */
-//define('DB_HOST', 'mysql51-009.wc1.ord1.stabletransit.com');
-
-/**Production**/
-
-define('DB_NAME', 'BraindoDatabase'); //DATABASE NAME
-define('DB_USER', 'admin');
-define('DB_PASSWORD', 'Pssw0rd#1');
 define('DB_HOST', 'braindodatabase.cpz9xhyl2caw.us-west-2.rds.amazonaws.com');
-
-
-
-
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -67,14 +47,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'E2mZI&.=q<WW^l0Gh6B)rY^rly,__{:5T3yI,2v=aUqweQ4)Rx(-Xgw%:/(QMH@)');
-define('SECURE_AUTH_KEY',  'BzD*)[(8+EVl;Ig#^Nf%BFnjaGJO@VrKC/W62,)ulS;0Z2?oyKK5Zn@[!i*C9Els');
-define('LOGGED_IN_KEY',    '{Cr_Rp|NA[:UX0|[1a`j@2e&IDJ@$Xqm+?BBO.=s3Sfyo%A7 37DL[}Hga>ek:&q');
-define('NONCE_KEY',        '*A{ 2n_7<gfA|Y(S#&<~.ZA!fV$mWIG&/4aFt6,a6Y_`:6. 3|%l(HKhSZ)cL08M');
-define('AUTH_SALT',        'Utw(!B_#mFyLJ9#r(yW$}X,H?&m{cj8<)7M{ij6~`n^@R8b:!IXJP{&Z!D`*BV0H');
-define('SECURE_AUTH_SALT', 'XVz)iVWm.0f7$=lZ}L4oEc|~5s{W!|XZ>F`*Ca@biM6* KDT4C2m:(mG=#a`_zcW');
-define('LOGGED_IN_SALT',   'M]PX KX?^ZGOjp(y]n#,X52:J[|%)@fM1C?&Ti) 2IINnQ.0Q9YS&b?%?ZHN%7g[');
-define('NONCE_SALT',       '4#q]/+.n3UE,8xZJ%]fj;*%+!K:4HdAq>7auwQZ.tYstc}kzTlALkn;LiFPR>68@');
+define('AUTH_KEY',         '^;Am;UHC-TF;KrW/a+eV34LGr$0@3z#;q.sXt%%V=Z^),a{(.iBkRVtK[pDeBb~I');
+define('SECURE_AUTH_KEY',  'O{)Ja@)514Wn)?Gn0<&5o3+[FgUNXcdX:Bs}(ty?KQ~9?d9@>mcgt4TUyBVLVZf*');
+define('LOGGED_IN_KEY',    '0.($(&li84<xuA41D#1Ay08HYt$Jh|A^Aq:!w@cON:}|FUg`L3/v9VeE.MOMH{0i');
+define('NONCE_KEY',        'iQ5O<+0[EX mK8S|@k3WYl8z8{tl}l&log_&}9#Y[[d|aC+k<P{nj$SM-@::+_wY');
+define('AUTH_SALT',        'HKe$LN^`oe;ClS=uM?e|Evf<EQh(9uUe_2hI <eE-J{}U48e6cB8 qmqWonbdG=1');
+define('SECURE_AUTH_SALT', 'L*1J5lP~XH+ADah<)sGP7|{|7&w#76%,0+lD,gzX,@L|8(vLv`$>w]m-!vgMkLd[');
+define('LOGGED_IN_SALT',   'K&>NwIv}RH+}f9Aw,ola+d1+n,Ny,*IqyZ%/jCVBA1|:~c;>ZgC+x 58<@59/#w]');
+define('NONCE_SALT',       'wE/>:I :ljLpxNt8B:OpYWE^o)4p&t86j+I=+,Rh7H1G`#wG+?4/Z.}]|Ij+o&.|');
 
 /**#@-*/
 
@@ -87,23 +67,13 @@ define('NONCE_SALT',       '4#q]/+.n3UE,8xZJ%]fj;*%+!K:4HdAq>7auwQZ.tYstc}kzTlAL
 $table_prefix  = 'wp_';
 
 /**
- * WordPress Localized Language, defaults to English.
- *
- * Change this to localize WordPress. A corresponding MO file for the chosen
- * language must be installed to wp-content/languages. For example, install
- * de_DE.mo to wp-content/languages and set WPLANG to 'de_DE' to enable German
- * language support.
- */
-define('WPLANG', '');
-
-/**
  * For developers: WordPress debugging mode.
  *
  * Change this to true to enable the display of notices during development.
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', false);
+//define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy blogging. */
 

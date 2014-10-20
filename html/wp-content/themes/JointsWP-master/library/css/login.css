@@ -10,56 +10,33 @@ For more info, check out the codex:
 http://codex.wordpress.org/Creating_Admin_Themes
 
 ******************************************************************/
-<<<<<<< HEAD
 #login {
   /* the form box */
   /*
-=======
-/* the form box */
-/*
->>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 This is the Wordpress logo in the admin area.
 You'll have to load your own images and mess
 with the width and height.
 */
-<<<<<<< HEAD
 }
 .login h1 a {
   /* make sure to replace this! */
   background: url(../images/login-logo.png) no-repeat top center;
-=======
-.login h1 a {
-  background: url(../images/login-logo.png) no-repeat top center;
-  /* make sure to replace this! */
->>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
   width: 326px;
   height: 67px;
   text-indent: -9999px;
   overflow: hidden;
   padding-bottom: 15px;
-<<<<<<< HEAD
   display: block;
 }
-=======
-  display: block; }
-
->>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 form {
   margin-left: 8px;
   padding: 26px 24px 46px;
   font-weight: normal;
   background: white;
-<<<<<<< HEAD
   border: 1px solid #e5e5e5;
   border-radius: 3px;
   box-shadow: none;
 }
-=======
-  border: 1px solid #E5E5E5;
-  border-radius: 3px;
-  box-shadow: none; }
-
->>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 body form .input {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
   font-weight: 200;
@@ -69,7 +46,6 @@ body form .input {
   margin-top: 2px;
   margin-right: 6px;
   margin-bottom: 16px;
-<<<<<<< HEAD
   border: 1px solid #e5e5e5;
   background: #fbfbfb;
   outline: none;
@@ -82,15 +58,3 @@ but since we're referencing the id, it should be easy.
 #wp-submit {
   /* login button*/
 }
-=======
-  border: 1px solid #E5E5E5;
-  background: #FBFBFB;
-  outline: none;
-  box-shadow: inset 1px 1px 2px rgba(200, 200, 200, 0.2); }
-
-/*
-You'll have to override some of the default styles
-but since we're referencing the id, it should be easy.
-*/
-/* login button*/
->>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4

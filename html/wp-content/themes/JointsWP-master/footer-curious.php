@@ -56,6 +56,6 @@
 				</div><!-- end small footer -->
 			</footer> <!-- end .footer -->
 		<?php wp_footer(); ?>
-		<script src="<?php echo get_template_directory_uri(); ?>/library/js/min/app-min.js"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/library/js/app.js"></script>
 	</body>
 </html> <!-- end page -->
