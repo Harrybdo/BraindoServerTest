@@ -196,9 +196,5 @@ function joints_comments($comment, $args, $depth) {
 	<!-- </li> is added by WordPress automatically -->
 <?php
 } // don't remove this bracket!
-<<<<<<< HEAD
 ?>
-=======
 
-?>
->>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
