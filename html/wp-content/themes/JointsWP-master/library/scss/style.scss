@@ -34,6 +34,7 @@ you set a great foundation, you won't need to add too many styles in
 the other stylesheets. Remember, keep it light: Speed is Important.
 */
 
+<<<<<<< HEAD
 
 //HEADER STYLE! ***************
 .top-bar{
@@ -206,6 +207,10 @@ footer{
 		}
 	}
 }
+=======
+// styles in small.scss
+
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 
 
 
@@ -214,6 +219,7 @@ MEDIUM
 */
 @media only screen and (min-width: 40.063em) {
 
+<<<<<<< HEAD
 	//HEADER STYLE! ***************
 	.top-bar {
 		margin-top:2rem;
@@ -377,10 +383,14 @@ MEDIUM
 
 } // end of media query
 
+=======
+}
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 /*
 LARGE
 */
 @media only screen and (min-width: 64.063em) {
+<<<<<<< HEAD
 	
 	h1{
 		&.page-title{
@@ -390,5 +400,9 @@ LARGE
 			margin-top: 3rem;
 		}
 	}
+=======
+
+	
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 
 } // end of media query

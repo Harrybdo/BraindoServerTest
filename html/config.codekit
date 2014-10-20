@@ -3946,6 +3946,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
 	"\/wp-configAWSDB.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3955,6 +3956,8 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+=======
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 	"\/wp-content\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4132,87 +4135,160 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
 	"\/wp-content\/plugins\/wordpress-seo\/admin\/ajax.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/admin\/ajax.php",
+=======
+	"\/wp-content\/plugins\/wp-scss\/class\/class-wp-scss.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-scss\/class\/class-wp-scss.php",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
 	"\/wp-content\/plugins\/wordpress-seo\/admin\/class-admin.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/admin\/class-admin.php",
+=======
+	"\/wp-content\/plugins\/wp-scss\/options.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-scss\/options.php",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
 	"\/wp-content\/plugins\/wordpress-seo\/admin\/class-bulk-description-editor-list-table.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/admin\/class-bulk-description-editor-list-table.php",
+=======
+	"\/wp-content\/plugins\/wp-scss\/scssphp\/scss.inc.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-scss\/scssphp\/scss.inc.php",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
 	"\/wp-content\/plugins\/wordpress-seo\/admin\/class-bulk-editor-list-table.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/admin\/class-bulk-editor-list-table.php",
+=======
+	"\/wp-content\/plugins\/wp-scss\/wp-scss.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-scss\/wp-scss.php",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
 	"\/wp-content\/plugins\/wordpress-seo\/admin\/class-bulk-title-editor-list-table.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/admin\/class-bulk-title-editor-list-table.php",
+=======
+	"\/wp-content\/themes\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/index.php",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
 	"\/wp-content\/plugins\/wordpress-seo\/admin\/class-config.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/admin\/class-config.php",
+=======
+	"\/wp-content\/themes\/JointsWP-master\/404.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/404.php",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
 	"\/wp-content\/plugins\/wordpress-seo\/admin\/class-metabox.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/admin\/class-metabox.php",
+=======
+	"\/wp-content\/themes\/JointsWP-master\/archive-accordion.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/archive-accordion.php",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
 	"\/wp-content\/plugins\/wordpress-seo\/admin\/class-opengraph-admin.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/admin\/class-opengraph-admin.php",
+=======
+	"\/wp-content\/themes\/JointsWP-master\/archive-custom_type.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/archive-custom_type.php",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
 	"\/wp-content\/plugins\/wordpress-seo\/admin\/class-pointers.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/admin\/class-pointers.php",
+=======
+	"\/wp-content\/themes\/JointsWP-master\/archive.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/archive.php",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
 	"\/wp-content\/plugins\/wordpress-seo\/admin\/class-sitemaps-admin.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4236,19 +4312,58 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/admin\/class-taxonomy.php",
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/fastclick\/lib\/fastclick.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/fastclick\/lib\/fastclick.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/fastclick\/lib\/min\/fastclick-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/fastclick\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/fastclick\/README.md",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/fastclick\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/css\/foundation.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/css\/foundation.css",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
 	"\/wp-content\/plugins\/wordpress-seo\/admin\/class-tracking.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/wordpress-seo\/admin\/class-tracking.php",
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/css\/normalize.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/css\/normalize.css",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
 	"\/wp-content\/plugins\/wordpress-seo\/admin\/class-yoast-notification-center.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -5566,6 +5681,272 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation.scss": {
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/min\/foundation-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/min\/foundation.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.abide.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.abide.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/min\/foundation.abide-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.accordion.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.accordion.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/min\/foundation.accordion-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.alert.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.alert.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/min\/foundation.alert-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.clearing.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.clearing.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/min\/foundation.clearing-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.dropdown.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.dropdown.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/min\/foundation.dropdown-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.equalizer.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.equalizer.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/min\/foundation.equalizer-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.interchange.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.interchange.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/min\/foundation.interchange-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.joyride.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.joyride.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/min\/foundation.joyride-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/min\/foundation-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.magellan.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.magellan.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/min\/foundation.magellan-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.offcanvas.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.offcanvas.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/min\/foundation.offcanvas-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.orbit.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.orbit.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/min\/foundation.orbit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.reveal.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.reveal.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/min\/foundation.reveal-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.slider.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.slider.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/min\/foundation.slider-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.tab.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.tab.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/min\/foundation.tab-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.tooltip.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.tooltip.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/min\/foundation.tooltip-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.topbar.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/foundation.topbar.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/foundation\/min\/foundation.topbar-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/vendor\/fastclick.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/vendor\/fastclick.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/vendor\/min\/fastclick-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/vendor\/jquery.cookie.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/vendor\/jquery.cookie.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/vendor\/min\/jquery.cookie-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/vendor\/jquery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/vendor\/jquery.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/vendor\/min\/jquery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/vendor\/modernizr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/vendor\/modernizr.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/vendor\/min\/modernizr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/vendor\/placeholder.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/vendor\/placeholder.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/js\/vendor\/min\/placeholder-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
@@ -5982,6 +6363,591 @@
 		"useLibsass": 0
 		},
 	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_panels.scss": {
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/css\/foundation.css",
+=======
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_panels.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_panels.css",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+<<<<<<< HEAD
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/_functions.scss": {
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_pricing-tables.scss": {
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/_functions.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/css\/_functions.css",
+=======
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_pricing-tables.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_pricing-tables.css",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+<<<<<<< HEAD
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/_settings.scss": {
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_progress-bars.scss": {
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/_settings.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/css\/_settings.css",
+=======
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_progress-bars.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_progress-bars.css",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+<<<<<<< HEAD
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_accordion.scss": {
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_range-slider.scss": {
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_accordion.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_accordion.css",
+=======
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_range-slider.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_range-slider.css",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+<<<<<<< HEAD
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_alert-boxes.scss": {
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_reveal-new.scss": {
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_alert-boxes.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_alert-boxes.css",
+=======
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_reveal-new.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_reveal-new.css",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+<<<<<<< HEAD
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_block-grid.scss": {
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_reveal.scss": {
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_block-grid.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_block-grid.css",
+=======
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_reveal.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_reveal.css",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+<<<<<<< HEAD
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_breadcrumbs.scss": {
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_side-nav.scss": {
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_breadcrumbs.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_breadcrumbs.css",
+=======
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_side-nav.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_side-nav.css",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+<<<<<<< HEAD
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_button-groups.scss": {
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_split-buttons.scss": {
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_button-groups.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_button-groups.css",
+=======
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_split-buttons.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_split-buttons.css",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+<<<<<<< HEAD
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_buttons.scss": {
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_sub-nav.scss": {
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_buttons.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_buttons.css",
+=======
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_sub-nav.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_sub-nav.css",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+<<<<<<< HEAD
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_clearing.scss": {
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_switches.scss": {
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_clearing.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_clearing.css",
+=======
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_switches.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_switches.css",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+<<<<<<< HEAD
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_dropdown-buttons.scss": {
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_tables.scss": {
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_dropdown-buttons.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_dropdown-buttons.css",
+=======
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_tables.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_tables.css",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+<<<<<<< HEAD
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_dropdown.scss": {
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_tabs.scss": {
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_dropdown.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_dropdown.css",
+=======
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_tabs.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_tabs.css",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+<<<<<<< HEAD
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_flex-video.scss": {
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_thumbs.scss": {
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_flex-video.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_flex-video.css",
+=======
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_thumbs.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_thumbs.css",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+<<<<<<< HEAD
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_forms.scss": {
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_toolbar.scss": {
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_forms.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_forms.css",
+=======
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_toolbar.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_toolbar.css",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+<<<<<<< HEAD
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_global.scss": {
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_tooltips.scss": {
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_global.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_global.css",
+=======
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_tooltips.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_tooltips.css",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+<<<<<<< HEAD
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_grid.scss": {
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_top-bar.scss": {
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_grid.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_grid.css",
+=======
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_top-bar.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_top-bar.css",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+<<<<<<< HEAD
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_icon-bar.scss": {
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_type.scss": {
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_icon-bar.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_icon-bar.css",
+=======
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_type.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_type.css",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+<<<<<<< HEAD
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_iconbar.scss": {
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_visibility.scss": {
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_iconbar.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_iconbar.css",
+=======
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_visibility.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_visibility.css",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+<<<<<<< HEAD
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_inline-lists.scss": {
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/normalize.scss": {
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+<<<<<<< HEAD
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_inline-lists.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_inline-lists.css",
+=======
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/normalize.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/css\/normalize.css",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+<<<<<<< HEAD
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_joyride.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_joyride.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_joyride.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_keystrokes.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_keystrokes.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_keystrokes.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_labels.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_labels.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_labels.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_magellan.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_magellan.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_magellan.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_offcanvas.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_offcanvas.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_orbit.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_orbit.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_orbit.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_pagination.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_pagination.scss",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/css\/_pagination.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/foundation\/scss\/foundation\/components\/_panels.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
@@ -6284,6 +7250,445 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+=======
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/dist\/html5shiv-printshiv.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/dist\/html5shiv-printshiv.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/dist\/min\/html5shiv-printshiv-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/dist\/html5shiv-printshiv.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/dist\/html5shiv-printshiv.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/dist\/min\/html5shiv-printshiv.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/dist\/html5shiv.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/dist\/html5shiv.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/dist\/min\/html5shiv-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/dist\/html5shiv.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/dist\/html5shiv.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/dist\/min\/html5shiv.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/Gruntfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/Gruntfile.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/min\/Gruntfile-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/MIT and GPL2 licenses.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/MIT and GPL2 licenses.md",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/MIT and GPL2 licenses.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/readme.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/readme.md",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/readme.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/src\/html5shiv-printshiv.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/src\/html5shiv-printshiv.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/src\/min\/html5shiv-printshiv-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/src\/html5shiv.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/src\/html5shiv.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/src\/min\/html5shiv-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/data\/body-crash.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 429,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/data\/body-crash.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/data\/body-crash.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/data\/iframed-tests.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/data\/iframed-tests.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/data\/inline-mixed-media.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/data\/inline-mixed-media.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/data\/inline-print-media.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/data\/inline-print-media.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/data\/no-print.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/data\/no-print.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/data\/print-styles.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/data\/print-styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/data\/print.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/data\/print.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/data\/screen.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/data\/screen.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/highcharts\/area-basic.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/highcharts\/area-basic.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/highcharts\/highcharts.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/highcharts\/highcharts.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/highcharts\/min\/highcharts-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/html5shiv.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/html5shiv.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/iframe.1-1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/iframe.1-1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/iframe.1-2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/iframe.1-2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/iframe.1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/iframe.1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/data\/iframe.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/data\/iframe.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/data\/test.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/data\/test.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/data\/min\/test-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/data\/testinit.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/data\/testinit.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/data\/min\/testinit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/data\/testrunner.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/data\/testrunner.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/data\/min\/testrunner-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/data\/testsuite.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/data\/testsuite.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/data\/versioncheck.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/data\/versioncheck.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/data\/min\/versioncheck-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/unit\/core.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/unit\/core.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/unit\/min\/core-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/unit\/manipulation.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/unit\/manipulation.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/unit\/min\/manipulation-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/unit\/traversing.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/unit\/traversing.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/jquery-1.7.1\/unit\/min\/traversing-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/mixed-test.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/mixed-test.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/object-test.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/object-test.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/perf.1.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/perf.1.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/perf.2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/perf.2.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/qunit\/qunit.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/qunit\/qunit.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/qunit\/qunit.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/qunit\/qunit.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/qunit\/min\/qunit-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/style.all.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/style.all.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/style.print.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/style.print.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/unit\/tests.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/unit\/tests.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/JointsWP-master\/bower_components\/html5shiv\/test\/unit\/min\/tests-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 		},
 	"\/wp-content\/themes\/JointsWP-master\/bower_components\/jquery-placeholder\/demo.html": {
 		"fileType": 8192,
@@ -8933,6 +10338,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
 	"\/wp-content\/themes\/JointsWP-master\/library\/css\/app.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -8942,6 +10348,8 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+=======
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 	"\/wp-content\/themes\/JointsWP-master\/library\/css\/icons\/foundation-icons.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -9175,6 +10583,7 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+<<<<<<< HEAD
 	"\/wp-content\/themes\/JointsWP-master\/library\/scss\/_large.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -9207,6 +10616,8 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+=======
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 	"\/wp-content\/themes\/JointsWP-master\/library\/scss\/_mixins.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -9223,6 +10634,7 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+<<<<<<< HEAD
 	"\/wp-content\/themes\/JointsWP-master\/library\/scss\/_print.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -9239,6 +10651,8 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+=======
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 	"\/wp-content\/themes\/JointsWP-master\/library\/scss\/_settings.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -9255,6 +10669,7 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+<<<<<<< HEAD
 	"\/wp-content\/themes\/JointsWP-master\/library\/scss\/_small.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -9287,6 +10702,8 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+=======
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 	"\/wp-content\/themes\/JointsWP-master\/library\/scss\/joints\/_gallery.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -9538,6 +10955,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+<<<<<<< HEAD
 	"\/wp-content\/themes\/JointsWP-master\/WPHome.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -9547,6 +10965,8 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+=======
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 	"\/wp-cron.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -14449,7 +15869,11 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
+<<<<<<< HEAD
 	"externalServerAddress": "http:\/\/localhost:8888",
+=======
+	"externalServerAddress": "localhost:8888",
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,

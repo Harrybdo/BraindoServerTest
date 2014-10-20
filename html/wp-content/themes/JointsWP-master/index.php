@@ -4,7 +4,11 @@
 			
 				<div id="inner-content" class="row clearfix">
 			
+<<<<<<< HEAD
 				    <div id="main" class="small-12 columns clearfix" role="main">
+=======
+				    <div id="main" class="large-8 medium-8 columns clearfix" role="main">
+>>>>>>> aba7fc81efa26367aeb5d396370cf47d98baa6e4
 
 					    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
