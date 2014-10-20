@@ -17,16 +17,21 @@ $block_heading = CFS()->get('block_heading');
 $dog_block_heading = CFS()->get('dog_block_heading');
 $employees = CFS()->get('employee_blocks');
 $dogs = CFS()->get('dog_blocks');
+$blocks = CFS()->get('expertise_block_loop',21);
+$blocklength = sizeof($blocks);
+$i = 0;
 ?>
 
 <!-- Title row-->
 <div class="row" id="title-row">
-  <div class="small-12 columns">
-    <div class="small-10 small-centered columns">
-      <h1 class="page-title"><?php echo $page_title; ?></h1>
-    </div>
-    <hr>
-  </div>
+  	<div class="small-12 columns">
+    	<div class="small-10 small-centered columns">
+			<h1 class="page-title"><?php echo $page_title; ?></h1>
+    	</div>
+    	
+		<hr>
+		
+  	</div>
 </div><!--end title div-->  
 
 <!-- main content -->
@@ -42,7 +47,9 @@ $dogs = CFS()->get('dog_blocks');
 </div>
 
 <div class="row">
-	<hr class="hr-row"
+	<div class="small-12 columns">
+		<hr>
+	</div>
 </div>
 
 <!-- BRAIN DUDES -->
@@ -57,20 +64,22 @@ $dogs = CFS()->get('dog_blocks');
 				$imageURL = $employee['employee_image_url'];
 			?>
 			
-			<li class="employee-block">
-				<div class="nohover-state">
-					<img src="http://www.placehold.it/175x175">
-					<span class="employee-block-text"><?php echo $name ?></span>
-				</div>
-				<div class="show-for-medium-up">
-					<div class="hover-state">
-						<p class="employee-block-text"><?php echo $name?></p>
-						<p class="employee-block-text"><?php echo $title?></p>
+				<li class="employee-block">
+					<div class="nohover-state">
+						<img src="http://www.placehold.it/175x175">
+						<span class="employee-block-text"><?php echo $name ?></span>
 					</div>
-				</div>
-			</li>
+					<div class="show-for-medium-up">
+						<div class="hover-state">
+							<p class="employee-block-text"><?php echo $name?></p>
+							<p class="employee-block-text"><?php echo $title?></p>
+						</div>
+					</div>
+				</li>
 				
-			<?php } ?>
+			<?php 
+			} 
+			?>
 		</ul>
 	</div>
 </div><!-- end BRAINDUDES row -->
@@ -80,77 +89,77 @@ $dogs = CFS()->get('dog_blocks');
 	<div class="small-12 columns">
 		<h4><?php echo $dog_block_heading; ?></h4>
 		<ul class="small-block-grid-2 large-block-grid-5 medium-block-grid-3">
-			<?php foreach($dogs as $dog){
+			<?php 
+			foreach($dogs as $dog){
 				$name = $dog['dog_name'];
 				$title = $dog['dog_title'];
 				$imageURL = $dog['dog_image_url'];
 			?>
 			
-			<li class="employee-block">
-				<div class="nohover-state">
-					<img src="http://www.placehold.it/175x175">
-					<span class="employee-block-text"><?php echo $name ?></span>
-				</div>
-				<div class="show-for-medium-up">
-					<div class="hover-state">
-						<p class="employee-block-text"><?php echo $name?></p>
-						<p class="employee-block-text"><?php echo $title?></p>
+				<li class="employee-block">
+					<div class="nohover-state">
+						<img src="http://www.placehold.it/175x175">
+						<span class="employee-block-text"><?php echo $name ?></span>
 					</div>
-				</div>
-			</li>
+					<div class="show-for-medium-up">
+						<div class="hover-state">
+							<p class="employee-block-text"><?php echo $name?></p>
+							<p class="employee-block-text"><?php echo $title?></p>
+						</div>
+					</div>
+				</li>
 				
-			<?php } ?>
+			<?php 
+			} 
+			?>
 		</ul>
 	</div>
 </div><!-- end BRAINDOGS row -->
 
 <div class="row">
-	<hr>
+	<div class="small-12 columns">
+		<hr>
+	</div>
 </div>
 
 <!-- expertise blocks for med-up -->
 <div class="row" id="row3">
-  <div class="small-12 columns">
-    <h4 class="expertise-block-title">Areas Of Expertise</h4>
-    <?php 
-      $blocks = CFS()->get('expertise_block_loop',21);
-      $blocklength = sizeof($blocks);
-      $i = 0;
-    ?>
-     <ul class="large-block-grid-<?php echo $blocklength; ?> medium-block-grid-3 small-block-grid-1" id="expertiseBlockUL">
-        <?php 
-          foreach($blocks as $block){
-            $no_hover_text = $block['no_hover_text'];
-            $no_hover_image_url = $block['no_hover_image_url'];
-            $hover_list_items = $block['hover_list_items'];
-        ?>
-            <li>
-              <div class="expertiseBlock" id="expertiseBlock<?php echo $i; ?>">
-                <div class="nohover-state">
-                  <img src="<?php echo $no_hover_image_url; ?>">
-                  <?php echo $no_hover_text; ?>
-                </div>
-                <div class="show-for-medium-up">
-                  <div class="hover-state">
-                      <ul>
-                        <?php
-                        foreach($hover_list_items as $list_item){
-                          $list_item_text = $list_item['list_item_text']
-                        ?>
-                          <li><?php echo $list_item_text ?></li>
-                        <?php } ?>
-                      </ul>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-        <?php 
-          $i++;
-          }
-        ?>
-      </ul>
-  </div><!-- end-12 -->
+  	<div class="small-12 columns">
+	    <h4 class="expertise-block-title">Areas Of Expertise</h4>
+	    <ul class="large-block-grid-<?php echo $blocklength; ?> medium-block-grid-3 small-block-grid-1" id="expertiseBlockUL">
+	        <?php 
+	        foreach($blocks as $block){
+	            $no_hover_text = $block['no_hover_text'];
+	            $no_hover_image_url = $block['no_hover_image_url'];
+	            $hover_list_items = $block['hover_list_items'];
+	        ?>
+	            <li>
+	              <div class="expertiseBlock" id="expertiseBlock<?php echo $i; ?>">
+	                <div class="nohover-state">
+	                  <img src="<?php echo $no_hover_image_url; ?>">
+	                  <?php echo $no_hover_text; ?>
+	                </div>
+	                <div class="show-for-medium-up">
+	                  <div class="hover-state">
+	                      <ul>
+	                        <?php
+	                        foreach($hover_list_items as $list_item){
+	                          $list_item_text = $list_item['list_item_text']
+	                        ?>
+	                          <li><?php echo $list_item_text ?></li>
+	                        <?php } ?>
+	                      </ul>
+	                  </div>
+	                </div>
+	              </div>
+	            </li>
+	
+	        <?php 
+	        $i++;
+	        }
+	        ?>
+	    </ul>
+  	</div><!-- end-12 -->
 </div><!--end expertise blocks row-->
 
 
