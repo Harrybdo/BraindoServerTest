@@ -1,0 +1,19 @@
+/************* CONTACT CALL TO ACTION *************/
+
+.contact-cta {
+  border-top:2px solid #3badb8;
+  display:block;
+  padding:1rem 0;
+  text-align:center;
+  
+  .contact-cta-button{
+    background:url("../images/arrows-right.png") no-repeat right center transparent;
+    border:2px solid #8f8e8e;
+    margin:0 0 0 5px;
+    padding:5px 35px 5px 10px;
+    text-transform:uppercase;
+    color:#0598ab;
+  }
+}
+
+/************* END OF CONTACT CALL TO ACTION *************/

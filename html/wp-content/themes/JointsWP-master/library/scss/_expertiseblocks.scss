@@ -1,0 +1,106 @@
+/************* EXPERTISE BLOCK *************/
+
+.areas-of-expertise{
+  border-top:2px solid #3badb8;
+  display:block;
+  margin:2rem 0 1rem 0;
+  padding:1rem 0 0 0;
+
+  h3.expertise-block-title{
+		margin: 1rem 0 .5rem 0;
+		color:$tertiary-color;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	
+  div.expertiseBlock { 
+		margin: 1rem 0 0 0;
+		clear: both;
+		text-align:center;
+		color: white;
+  }
+  #expertiseBlock0{
+  	background-color:$braindo-menu-red;
+  }
+  #expertiseBlock1{
+  	background-color:$braindo-menu-yellow;
+  }
+  #expertiseBlock2{
+  	background-color:$braindo-menu-blue;
+  }
+  #expertiseBlock3{
+  	background-color:$braindo-menu-green;
+  }
+  #expertiseBlock4{
+  	background-color:$braindo-menu-teal;
+  }
+  #expertiseBlock5{
+  	background-color:$braindo-menu-red;
+  }
+  .expertiseBlockSlider{
+    display: none;
+    margin: 0 auto;
+    height: 5rem;
+    text-align: center;
+    background-color: transparent; 
+  }
+  
+  p.extended-description{
+  	font-size: 1.5rem;
+  }
+  .extended-list-items{
+  	font-size: 2rem;
+  	list-style-type:square;
+  }
+}
+
+@media only screen and (min-width: 40.063em) {
+  .areas-of-expertise{
+    div.expertiseBlock{
+  		margin-bottom: 1.5rem;
+  		height: 150px;
+  		width: 180px;
+  		padding-top:0rem;
+  
+  		img{
+  			padding-top:10px;
+  			width: 160px;
+  			height: 130px;
+  		}
+  		.hover-state{
+  			display: none;
+  		}
+  
+  		&:hover{
+  			position:relative;
+  			
+  			.nohover-state{
+  			    position: absolute;
+  			    top: 0;
+  			    left: 0;
+  			    bottom: 0;
+  			    right: 0;
+  			    z-index: 0;
+  			    overflow: hidden;
+  			    opacity: .2;
+  			}
+  			.hover-state{
+  				text-align: center;
+  				ul{
+  					display: inline-block;
+  					padding-top:2rem;
+  					li{
+  						font-size: .7rem;
+  					}
+  				}
+  				z-index: 9999;
+  				width:inherit;
+  				height:inherit;
+  				display:inline-block;
+  			}
+  		}
+  	}
+  }
+}
+
+/************* END OF EXPERTISE BLOCK *************/

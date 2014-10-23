@@ -51,12 +51,12 @@ function _serviceDisplay(param){
 
 $(".expertiseBlock").click(function(){
 	var clickedBlock = $(this).attr("id").match(/expertiseBlock(\d)/i)[1];
-	alert(clickedBlock);
-	$("#expertise-expanded").animate({opacity:0}, 500, function() {
+	//alert(clickedBlock);
+	$(".servicePanel").animate({opacity:0}, 500, function() {
 	});
 	
 	//switch out the text
 	
-	$("#expertise-expanded").animate({opacity:1}, 500, function() {
+	$(".servicePanel").animate({opacity:1}, 500, function() {
 	});
 });

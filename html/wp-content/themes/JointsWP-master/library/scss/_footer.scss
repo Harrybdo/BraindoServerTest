@@ -1,0 +1,28 @@
+/************* FOOTER *************/
+
+footer{
+	ul{
+		margin: 0 auto;
+		font-size:.6rem;
+		li{
+			display:inline-block;
+		}
+	}
+}
+
+@media only screen and (min-width: 40.063em) {
+  
+  footer{
+		text-align:left;
+
+		#footerLeft{
+			margin-top: 1rem;
+		}
+		#footerRight{
+			text-align: right;
+			margin-top: 1rem;
+		}
+	}
+}
+
+/************* END OF FOOTER *************/

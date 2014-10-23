@@ -6,8 +6,8 @@ get_header();
 ?>
 
 <?php
-$page_title = CFS()->get('page_title');
-$page_subtitle = CFS()->get('page_subtitle');
+$page_title = CFS()->get('page_header');
+$page_subtitle = CFS()->get('page_sub_header');
 $page_description = CFS()->get('page_description');
 $page_image_url = CFS()->get('main_image_url');
 $page_service_list = CFS()->get('services_list');

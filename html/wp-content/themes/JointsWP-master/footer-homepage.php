@@ -25,7 +25,7 @@
 					    	</div><!-- end footer left -->
 					    	
 					    	<div class="medium-6 columns" id="footerRight">
-					    		<p>2014 BrainDo Interactive Consulting<p>
+					    		<p>&copy; 2014 BrainDo Interactive Consulting<p>
 					    	</div>
 				    	</div>
 				    	

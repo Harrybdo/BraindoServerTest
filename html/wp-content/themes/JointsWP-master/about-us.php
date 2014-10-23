@@ -1,13 +1,13 @@
 <?php
 /*
-Template Name: whoweare
+Template Name: About Us
 */
 get_header(); 
 ?>
 
 <?php
-$page_title = CFS()->get('page_title');
-$page_subtitle = CFS()->get('page_subtitle');
+$header = CFS()->get('page_header');
+$sub_header = CFS()->get('page_sub_header');
 $first_paragraph = CFS()->get('first_paragraph');
 $paragraph_heading_1 = CFS()->get('paragraph_heading_1');
 $paragraph_text_1 = CFS()->get('paragraph_text_1');
@@ -17,38 +17,26 @@ $block_heading = CFS()->get('block_heading');
 $dog_block_heading = CFS()->get('dog_block_heading');
 $employees = CFS()->get('employee_blocks');
 $dogs = CFS()->get('dog_blocks');
-$blocks = CFS()->get('expertise_block_loop',21);
-$blocklength = sizeof($blocks);
-$i = 0;
 ?>
 
 <!-- Title row-->
 <div class="row" id="title-row">
   	<div class="small-12 columns">
     	<div class="small-10 small-centered columns">
-			<h1 class="page-title"><?php echo $page_title; ?></h1>
-    	</div>
-    	
-		<hr>
-		
-  	</div>
+		  	<h1 class="page-title"><?php echo $header; ?></h1>
+      </div>
+		</div>
 </div><!--end title div-->  
 
 <!-- main content -->
 <div class="row">
 	<div class="small-12 columns">
-		<h2><?php echo $page_subtitle; ?></h2>
+		<h2><?php echo $sub_header; ?></h2>
 		<p><?php echo $first_paragraph; ?></p>
 		<h3><?php echo $paragraph_heading_1; ?></h3>
 		<p><?php echo $paragraph_text_1; ?></p>
 		<h3><?php echo $paragraph_heading_2; ?></h3>
 		<p><?php echo $paragraph_text_2; ?></p>
-	</div>
-</div>
-
-<div class="row">
-	<div class="small-12 columns">
-		<hr>
 	</div>
 </div>
 
@@ -116,51 +104,12 @@ $i = 0;
 	</div>
 </div><!-- end BRAINDOGS row -->
 
-<div class="row">
-	<div class="small-12 columns">
-		<hr>
-	</div>
-</div>
 
-<!-- expertise blocks for med-up -->
-<div class="row" id="row3">
-  	<div class="small-12 columns">
-	    <h4 class="expertise-block-title">Areas Of Expertise</h4>
-	    <ul class="large-block-grid-<?php echo $blocklength; ?> medium-block-grid-3 small-block-grid-1" id="expertiseBlockUL">
-	        <?php 
-	        foreach($blocks as $block){
-	            $no_hover_text = $block['no_hover_text'];
-	            $no_hover_image_url = $block['no_hover_image_url'];
-	            $hover_list_items = $block['hover_list_items'];
-	        ?>
-	            <li>
-	              <div class="expertiseBlock" id="expertiseBlock<?php echo $i; ?>">
-	                <div class="nohover-state">
-	                  <img src="<?php echo $no_hover_image_url; ?>">
-	                  <?php echo $no_hover_text; ?>
-	                </div>
-	                <div class="show-for-medium-up">
-	                  <div class="hover-state">
-	                      <ul>
-	                        <?php
-	                        foreach($hover_list_items as $list_item){
-	                          $list_item_text = $list_item['list_item_text']
-	                        ?>
-	                          <li><?php echo $list_item_text ?></li>
-	                        <?php } ?>
-	                      </ul>
-	                  </div>
-	                </div>
-	              </div>
-	            </li>
-	
-	        <?php 
-	        $i++;
-	        }
-	        ?>
-	    </ul>
-  	</div><!-- end-12 -->
-</div><!--end expertise blocks row-->
+<?php 
+  
+include 'partials/areas-of-expertise.php'; 
+  
+?>
 
 
 <?php get_footer('curious'); ?>
