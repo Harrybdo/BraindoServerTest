@@ -6,21 +6,25 @@ get_header();
 $header = CFS()->get('page_header');
 $sub_header = CFS()->get('page_sub_header');
 $background_image = CFS()->get('background_image');
+$background_video = CFS()->get('background_video');
 
 ?>
 
 <!-- FULL SCREEN BACKGROUND -->
 <div class="background">
-  <img src="<?php echo get_template_directory_uri(); ?>/library/images/<?php echo $background_image ?>" alt="Background Image">
+  <video autoplay loop poster="<?php echo get_template_directory_uri(); ?>/library/images/headers/<?php echo $background_image ?>" id="bgvid">
+	  	<source src="<?php echo get_template_directory_uri(); ?>/library/images/headers/<?php echo $background_video ?>" type="video/mp4">
+  </video>
 </div>
 <!-- END OF FULL SCREEN BACKGROUND -->
 
+<!-- PAGE WRAPPER -->
 <div class="page-wrapper">
   
   <?php include 'partials/top-nav.php' ?>
   
   <!-- HEADERS ROW -->
-  <div class="row">
+  <div class="row homepage-header">
   	<div class="small-12 columns">
     	<div class="small-10 small-centered columns">
   			<h1 class="page-title"><?php echo $header ?></h1>
@@ -36,7 +40,5 @@ include 'partials/areas-of-expertise.php';
 include 'partials/contact-cta.php';
   
 ?>  
-
-</div>
 
 <?php get_footer('homepage'); ?>

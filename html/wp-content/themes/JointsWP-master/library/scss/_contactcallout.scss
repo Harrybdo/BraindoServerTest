@@ -5,14 +5,22 @@
   display:block;
   padding:1rem 0;
   text-align:center;
+  color:$tertiary-color;
   
   .contact-cta-button{
-    background:url("../images/arrows-right.png") no-repeat right center transparent;
+    font-size:.75rem;
+    background:url("../images/arrows/arrows-right.png") no-repeat right center transparent;
     border:2px solid #8f8e8e;
     margin:0 0 0 5px;
-    padding:5px 35px 5px 10px;
+    padding:2px 50px 2px 20px;
     text-transform:uppercase;
-    color:#0598ab;
+    
+    &:hover {
+      background:url("../images/arrows/arrows-right-white.png") no-repeat right center $primary-color;
+      border:2px solid $primary-color;
+      color:#fff;
+      font-weight:700;
+    }
   }
 }
 

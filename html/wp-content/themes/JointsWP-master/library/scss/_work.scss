@@ -1,0 +1,229 @@
+ // end of media query
+/************* OUR WORK - HOMEPAGE *************/
+.case-studies {
+  border-top:1px solid $primary-color;
+  
+  .case-study {
+    padding:0 2rem 2rem 2rem;
+    width:100%;
+    margin: 0 auto;
+    
+    &:not(:last-child){
+      border-bottom:1px solid $primary-color;
+    }
+    
+    .left-content {
+      
+    }
+    
+    .right-content {
+      
+      h3 {
+        text-align:left;
+        font-weight:500;
+        
+        a {
+          color:$primary-color;
+        }
+      }
+      
+      p {
+        margin:0.5rem 0 1rem 0;
+      }
+      
+      h4 {
+        color:$tertiary-color;
+        font-weight:300;
+      }
+      
+      .service-images {
+        display:block;
+        margin:-0.5rem 0 2rem 0;
+        img{
+          margin-bottom: 0.25rem;
+        }
+        
+      }
+      
+      .contact-cta-button{
+        font-size:1rem;
+        background:url("../images/arrows/arrows-right.png") no-repeat right center transparent;
+        border:2px solid #8f8e8e;
+        margin:0 auto;
+        text-align: center;
+        padding:2px 50px 2px 10px;
+        text-transform:uppercase;
+        
+        &:hover {
+          background:url("../images/arrows/arrows-right-white.png") no-repeat right center $primary-color;
+          border:2px solid $primary-color;
+          color:#fff;
+          font-weight:700;
+        }
+      }
+    }
+  }
+}
+/************* END OF OUR WORK - HOMEPAGE *************/
+
+/************* OUR WORK - SUB PAGES *************/
+.case-study-information {
+  margin:3rem auto;
+  
+  h3 {
+    text-align:left;
+    font-weight:500;
+    margin:0.5rem 0;
+  }
+}
+/************* END OF OUR WORK - SUB PAGES *************/
+@media only screen and (min-width: 40.063em) {
+   // end of media query
+/************* OUR WORK - HOMEPAGE *************/
+  .case-studies {
+    border-top:1px solid $primary-color;
+    
+    .case-study {
+      padding:2rem 0;
+      width:83.33333%;
+      margin: 0 auto;
+      
+      &:not(:last-child){
+        border-bottom:1px solid $primary-color;
+      }
+      
+      .left-content {
+        
+      }
+      
+      .right-content {
+        
+        h3 {
+          text-align:left;
+          font-weight:500;
+          
+          a {
+            color:$primary-color;
+          }
+        }
+        
+        p {
+          margin:0.5rem 0 1rem 0;
+        }
+        
+        h4 {
+          color:$tertiary-color;
+          font-weight:300;
+        }
+        
+        .service-images {
+          display:block;
+          margin:-0.5rem 0 2rem 0;
+        }
+        
+        .contact-cta-button{
+          font-size:1rem;
+          background:url("../images/arrows/arrows-right.png") no-repeat right center transparent;
+          border:2px solid #8f8e8e;
+          margin:1rem 0 0 0;
+          padding:2px 50px 2px 10px;
+          text-transform:uppercase;
+          
+          &:hover {
+            background:url("../images/arrows/arrows-right-white.png") no-repeat right center $primary-color;
+            border:2px solid $primary-color;
+            color:#fff;
+            font-weight:700;
+          }
+        }
+      }
+    }
+  }
+  /************* END OF OUR WORK - HOMEPAGE *************/
+  
+  /************* OUR WORK - SUB PAGES *************/
+  .case-study-information {
+    margin:3rem auto;
+    
+    h3 {
+      text-align:left;
+      font-weight:500;
+      margin:0.5rem 0;
+    }
+  }
+}
+@media only screen and (min-width: 64.063em) {
+   // end of media query
+  /************* OUR WORK - HOMEPAGE *************/
+  .case-studies {
+    border-top:1px solid $primary-color;
+    
+    .case-study {
+      padding:2rem 0;
+      width:83.33333%;
+      margin: 0 auto;
+      
+      &:not(:last-child){
+        border-bottom:1px solid $primary-color;
+      }
+      
+      .left-content {
+        
+      }
+      
+      .right-content {
+        
+        h3 {
+          text-align:left;
+          font-weight:500;
+          
+          a {
+            color:$primary-color;
+          }
+        }
+        
+        p {
+          margin:0.5rem 0 1rem 0;
+        }
+        
+        h4 {
+          color:$tertiary-color;
+          font-weight:300;
+        }
+        
+        .service-images {
+          display:block;
+          margin:-0.5rem 0 2rem 0;
+        }
+        
+        .contact-cta-button{
+          font-size:1rem;
+          background:url("../images/arrows/arrows-right.png") no-repeat right center transparent;
+          border:2px solid #8f8e8e;
+          margin:1rem 0 0 0;
+          padding:2px 50px 2px 10px;
+          text-transform:uppercase;
+          
+          &:hover {
+            background:url("../images/arrows/arrows-right-white.png") no-repeat right center $primary-color;
+            border:2px solid $primary-color;
+            color:#fff;
+            font-weight:700;
+          }
+        }
+      }
+    }
+  }
+  /************* END OF OUR WORK - HOMEPAGE *************/
+  
+  /************* OUR WORK - SUB PAGES *************/
+  .case-study-information {
+    margin:3rem auto;
+    
+    h3 {
+      text-align:left;
+      font-weight:500;
+      margin:0.5rem 0;
+    }
+  }
+}

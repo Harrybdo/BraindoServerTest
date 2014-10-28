@@ -30,8 +30,8 @@ of the styles inside media queries.
 // global.scss
 @import "global";
 
-// header.scss
-@import "header";
+// top-nav.scss
+@import "top-nav";
 
 // footer.scss
 @import "footer";
@@ -45,5 +45,14 @@ of the styles inside media queries.
 // contactcallout.scss
 @import "contactcallout";
 
-// whoweare.scss
-@import "whoweare";
+// about-us.scss
+@import "about-us";
+
+// work.scss
+@import "work";
+
+// services.scss
+@import "services";
+
+// contact.scss 
+@import "contact";

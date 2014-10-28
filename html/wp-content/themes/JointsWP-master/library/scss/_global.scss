@@ -12,19 +12,16 @@ body,html {
 }
 
 body{
-  
+
 }
 
+  
 li{
 	text-align:left;
 }
 
 a {
 	color: $tertiary-color;
-
-	&:hover{
-		border-bottom: 1px solid #41881f;
-	}
 }
 
 h1{
@@ -48,11 +45,33 @@ h2.page-title-subheader {
 h3{
 	text-align:center;
 }
-
-.servicePanel {
-	display: none;
+.header-background-page {
+  
+  .header-bg {
+    opacity:0.15;
+    
+    img {
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+      right: 0; 
+      bottom: 0; 
+      margin: auto; 
+      min-width: 50%;
+      min-height: 50%;
+    }
+    video#headerbgvid {
+      position: absolute;
+      top:0;
+      min-width: 100%;
+      max-height:100px;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      background-size: cover;
+    }
+  }
 }
-
 
 /*
 MEDIUM
@@ -62,7 +81,6 @@ MEDIUM
 	html{
 		font-size:16px;
 	}
-	
 	h1{
 		text-align:center;
 		&.page-title{
@@ -72,7 +90,7 @@ MEDIUM
   }
   h2.page-title-subheader{
 		color:$tertiary-color;
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		text-transform: normal;
 	}
 	
@@ -85,6 +103,33 @@ MEDIUM
 			text-transform: uppercase;
 		}
 	}
+	
+	.header-background-page {
+     .header-bg {
+      opacity:0.15;
+      
+      img {
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        bottom: 0; 
+        margin: auto; 
+        min-width: 50%;
+        min-height: 50%;
+      }
+      video#headerbgvid {
+        position: absolute;
+        top:0;
+        min-width: 50%;
+        max-height:200px;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        background-size: cover;
+      }
+    }
+  }
 }
 
 
@@ -92,14 +137,48 @@ MEDIUM
 LARGE
 */
 @media only screen and (min-width: 64.063em) {
-	
 	h1{
 		&.page-title{
 			font-size: 4.5rem;
 			font-weight: bold;
 			text-transform: uppercase;
-			margin-top: 3rem;
+			margin-top: 2rem;
 		}
 	}
+	
+	.header-background-page {
+  
+    h2.page-title-subheader {
+      margin:2.5rem 0 1rem 0;
+      font-size: 1.6rem;
+
+    }
+    
+    .header-bg {
+      opacity:0.15;
+      
+      img {
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        bottom: 0; 
+        margin: auto; 
+        min-width: 50%;
+        min-height: 50%;
+      }
+      video#headerbgvid {
+        position: absolute;
+        top:0;
+        min-width: 100%;
+        max-height:250px;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        background-size: cover;
+      }
+    }
+  }
 
 } // end of media query
+

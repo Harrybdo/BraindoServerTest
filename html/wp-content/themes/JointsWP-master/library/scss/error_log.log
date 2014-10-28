@@ -1,1 +1,5 @@
 10/20/14 6:22:07: style.scss - parse error: failed at `<<<<<<< HEAD` /app/braindo/html/wp-content/themes/JointsWP-master/library/scss/_settings.scss on line 38
+10/28/14 2:08:21: style.scss - parse error: failed at `padding ` /app/braindo/html/wp-content/themes/JointsWP-master/library/scss/_services.scss on line 7
+10/28/14 2:08:56: style.scss - parse error: failed at `padding ` /app/braindo/html/wp-content/themes/JointsWP-master/library/scss/_services.scss on line 7
+10/28/14 6:20:15: style.scss - parse error: failed at `max-width: : 100%; ` /app/braindo/html/wp-content/themes/JointsWP-master/library/scss/_homepage.scss on line 23
+10/28/14 6:20:51: style.scss - parse error: failed at `max-width: : 100%; ` /app/braindo/html/wp-content/themes/JointsWP-master/library/scss/_homepage.scss on line 23

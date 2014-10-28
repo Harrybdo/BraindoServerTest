@@ -1,0 +1,89 @@
+/************* WHO WE ARE *************/
+.us-description{
+	
+	border-bottom:2px solid #3badb8;
+	padding-bottom: 2rem;
+	p{
+		margin-bottom: 1rem;
+	}
+	
+	h2,h3{
+		text-align: left;
+	}
+}
+.employee-block{
+	display:inline-block;
+	position: relative;
+	margin:0 auto;
+	height:auto;
+	max-width:50%;
+	text-align: center;
+	
+	span.employee-block-text{
+		z-index: 9999;
+		position:absolute;
+		left:0rem;
+		top:80%;
+		width:100%;
+	}
+}
+
+.employee-slider{
+	padding:none;
+	display:none;
+	max-width:400px;
+	height:150px;
+	margin-bottom:.5rem;
+}
+
+@media only screen and (min-width: 40.063em) {
+  
+  .employee-slider{
+	padding: none;
+	display:none;
+	max-width: 900px;
+	height:	300px;
+	text-align: center;
+	margin-bottom: .5rem;
+  }
+  
+  .employee-block{
+  	display:inline-block;
+	position: relative;
+	margin:0 auto;
+	height:auto;
+	max-width:100%;
+	text-align: center;
+	
+  	div.hover-state{
+  		display:none;
+  	}
+  	
+  	&:hover{
+  		position:relative;
+  		
+  		div.nohover-state{
+  		    position: absolute;
+  		    top: 0;
+  		    left: 0;
+  		    bottom: 0;
+  		    right: 0;
+  		    z-index: 0;
+  		    overflow: hidden;
+  		    opacity: .2;
+  		}
+  		div.hover-state{
+  			p{
+  				display: inline-block;
+  				padding-top:1rem;
+  			}
+  			z-index: 9999;
+  			max-width: 100%;
+  			height: auto;
+  			display:inline-block;
+  		}
+  	}
+  }  
+}
+  
+/************* END OF WHO WE ARE *************/

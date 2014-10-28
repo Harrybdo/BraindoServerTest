@@ -42,13 +42,13 @@ $column-gutter: rem-calc(0);
 // We use these to control various global styles
 // $body-bg: #fff;
 // $body-font-color: #222;
-$lato-font: "Lato", Arial;
-$font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-$font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
-$font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
+$brandon-grotesque-font: "brandon-grotesque", Arial;
+//$font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+//$font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+//$font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 $font-weight-normal: normal;
 
-$body-font-family: $lato-font;
+$body-font-family: $brandon-grotesque-font;
 $body-font-weight: $font-weight-normal;
 $body-font-style: normal;
 
@@ -61,15 +61,16 @@ $body-font-style: normal;
 // $default-float: left;
 
 // We use these as default colors throughout
-$primary-color: #177d89;
+$primary-color: #0498aa;
 $secondary-color: #99cc33;
-$tertiary-color: #696969;
+$tertiary-color: #767676;
+$darker-gray:#444242;
 
-$braindo-menu-red: #93230e;
-$braindo-menu-yellow: #947615;
-$braindo-menu-blue: #093138;
-$braindo-menu-green: #44650f;
-$braindo-menu-teal: #146c94;
+$braindo-menu-red: #a53400;
+$braindo-menu-yellow: #a58800;
+$braindo-menu-dark-blue: #014048;
+$braindo-menu-green: #557701;
+$braindo-menu-teal: #0080a5;
 
 $alert-color: #f04124;
 $success-color: #43AC6A;
@@ -188,10 +189,10 @@ $paragraph-text-rendering: optimizeLegibility;
 // $anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);
 
 // We use these to style the <hr> element
-$hr-border-width: .1rem;
-$hr-border-style: solid;
-$hr-border-color: $primary-color;
-$hr-margin: .1rem;
+//$hr-border-width: .1rem;
+//$hr-border-style: solid;
+//$hr-border-color: $primary-color;
+//$hr-margin: .1rem;
 
 // We use these to style lists
 $list-style-position: inside;
@@ -1173,8 +1174,8 @@ $topbar-title-font-size: 2rem;
 // $topbar-dropdown-toggle-alpha: 0.4;
 
 // Set the link colors and styles for top-level nav
-// $topbar-dropdown-link-color: #198599;
-// $topbar-link-color-hover: #0a3b44;
+//$topbar-dropdown-link-color: #444242;
+$topbar-link-color-hover: $darker-gray;
 // $topbar-link-color-active: #fff;
 // $topbar-link-color-active-hover: #fff;
 // $topbar-link-weight: normal;
@@ -1183,8 +1184,8 @@ $topbar-title-font-size: 2rem;
 // $topbar-link-bg-hover: #272727;
 // $topbar-link-bg-active: $primary-color;
 // $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
-// $topbar-link-font-family: $body-font-family;
-$topbar-link-text-transform: uppercase;
+$topbar-link-font-family: $body-font-family;
+//$topbar-link-text-transform: uppercase;
 //
 
 // $topbar-button-font-size: 0.75rem;

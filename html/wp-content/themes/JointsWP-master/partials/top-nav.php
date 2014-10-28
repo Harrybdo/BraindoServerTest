@@ -11,7 +11,9 @@ $num_buttons = count($social_buttons);
   <div class="small-12 columns show-for-medium-up">
 		<nav class="top-bar" data-topbar role="navigation">
 	 		<ul class="title-area">
-	 			<img src="<?php echo get_template_directory_uri(); ?>/library/images/coloredLogo.png" alt="BrainDo">
+	 			<a href="/">
+  	 			<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo.png" alt="BrainDo">
+  	 			</a>
 	 		</ul>
 		  <ul class="right text-center">
 			 	<?php 
@@ -20,7 +22,7 @@ $num_buttons = count($social_buttons);
 				    $linkhref = $link['nav_link_href'];
 				?>
 				<li>
-					<a href="<?php echo $linkhref; ?>"><?php echo $linktext; ?>&nbsp;</a>
+					<a href="<?php echo $linkhref; ?>"><?php echo $linktext; ?></a>
 				</li>
 				<?php }?>
 		  </ul>
@@ -32,17 +34,17 @@ $num_buttons = count($social_buttons);
   <div class="show-for-small-only">
 	 	<nav class="top-bar" data-topbar role="navigation">
 	 		<ul class="title-area">
-	 			<img src="<?php echo get_template_directory_uri(); ?>/library/images/coloredLogo.png">
+	 			<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo.png">
 	   	</ul>            
       <ul class="right">
-			  <a data-reveal-id="navModal">Menu</a>
+			  <a href="#" data-reveal-id="navModal">Menu</a>
 		  </ul>
 		</nav>
 		<!-- NAVIGATION MODAL -->
-		<div id="navModal" class="reveal-modal full-screen" data-reveal>
+		<div id="navModal" class="reveal-modal" data-reveal>
      	<div class="row">
-				<div class="small-12 columns">
-					<img src="<?php echo get_template_directory_uri(); ?>/library/imagescoloredLogo.png" id="navModalLogo">
+				<div class="small-12 columns modal-title">
+					<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-white.png" id="navModalLogo">
 				</div>
       </div>
       <div class="row">
@@ -54,14 +56,14 @@ $num_buttons = count($social_buttons);
 				        $linkhref = $link['nav_link_href'];
 		        ?>
 			  		<li>
-			  			<a href="<?php echo $linkhref; ?>"><?php echo $linktext; ?>&nbsp;</a>
+			  			<a href="<?php echo $linkhref; ?>"><?php echo $linktext; ?></a>
 			  		</li>
             <?php } ?>
 				  </ul>
 			  </div>
 		  </div>          	
       <div class="row">
-				<div class="small=12 columns">
+				<div class="small-12 columns modal-social">
 			 		<ul class="small-block-grid-<?php echo $num_buttons; ?> small-centered" class="contact-social-list">
 						<?php foreach($social_buttons as $social_button){
 			  			$image = $social_button['social_image'];

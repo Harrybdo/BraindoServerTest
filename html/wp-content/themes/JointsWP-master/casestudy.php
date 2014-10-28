@@ -4,87 +4,95 @@ Template Name: Case Study
 */
 get_header(); 
 
-$page_header = CFS()->get('page_header');
-$page_sub_header = CFS()->get('page_sub_header');
-
+$header = CFS()->get('page_header');
+$sub_header = CFS()->get('page_sub_header');
+$challenge_header = CFS()->get('challenge_header');
+$challenge_content = CFS()->get('challenge_content');
+$solution_header = CFS()->get('solution_header');
+$solution_content = CFS()->get('solution_content');
+$results_header = CFS()->get('results_header');
+$results_content = CFS()->get('results_content');
+$header = CFS()->get('page_header');
 $paragraphs = CFS()->get('left_column_paragraph_loop');
-$infographic_url = CFS()->get('infographic_url');
+$case_study_image_url = CFS()->get('case_study_image_url');
 
+$background_image = CFS()->get('background_image');
+$background_video = CFS()->get('background_video');
 
-foreach($paragraphs as $paragraph){
-	$paragraph_header = $paragraph['paragraph_header'];
-	$paragraph_text = $paragraph['paragraph_text'];	
-}
 ?>
 
+<!-- PAGE WRAPPER -->
+<div class="page-wrapper header-background-page">
 
-<!-- Title row-->
-<div class="row" id="title-row">
-  	<div class="small-12 columns">
-    	<div class="small-10 small-centered columns">
-			<h1 class="page-title"><?php echo $page_header; ?></h1>
-			<h2><?php echo $page_sub_header; ?></h2> 
-    	</div>
-		
-		<hr>
+  <?php include 'partials/top-nav.php' ?>
   
+  <!-- HEADER BACKGROUND -->
+  <div class="header-bg">
+    <video autoplay loop poster="<?php echo get_template_directory_uri(); ?>/library/images/headers/<?php echo $background_image; ?>" id="headerbgvid">
+      <source src="<?php echo get_template_directory_uri(); ?>/library/images/headers/<?php echo $background_video; ?>" type="video/mp4">
+    </video>
+  </div>
+  <!-- END HEADER BACKGROUND -->
+  
+  <!-- HEADERS ROW -->
+  <div class="row">
+  	<div class="small-12 columns">
+    	<div class="small-12 small-centered columns">
+  			<h1 class="page-title"><?php echo $header ?></h1>
+        <h2 class="page-title-subheader"><?php echo $sub_header ?></h2>
+      </div>
   	</div>
-</div><!--end title div-->  
+  </div>
+  <!-- END OF HEADERS ROW -->
 
-<!-- main content -->
-<div class="row">
+
+  <!-- CASE STUDY INFORMATION -->
+  <div class="row case-study-information">
   	<div class="small-12 columns">
     	<!-- LEFT COLUMN-->
     	<div class="small-12 medium-7 columns">
-			<!-- subheader + description -->
-			<div class="row">
-				<div class="small-12 columns">
-					<?php 
-					foreach($paragraphs as $paragraph){
-						$paragraph_header = $paragraph['paragraph_header'];
-						$paragraph_text = $paragraph['paragraph_text'];	
-					}?>
-					<h4 class="page-subtitle"><?php echo $paragraph_header; ?></h4>
-					<p class="service-description"><?php echo $paragraph_text; ?></p>
-					
-					<?php } ?>
-        		</div>
-      		</div><!-- end subheader+description -->
-
-
-	        <!-- image in middle for small -->
-	        <div class="row hide-for-medium-up">
-	          <div class="small-12 columns">
-	            <img src="http://placehold.it/600x200">
-	          </div>
-	        </div><!-- image for small -->
-	        
-	    </div><!-- enedleft column-->
+  			<div class="row">
+	  			<div class="small-12 columns">
+  	  			<div class="challenge">
+  					  <h3 class="page-subtitle"><?php echo $challenge_header; ?></h3>
+  					  <?php echo $challenge_content; ?>
+  	  			</div>
+  	  			<div class="solution">
+  					  <h3 class="page-subtitle"><?php echo $solution_header; ?></h3>
+              <?php echo $solution_content; ?>
+  	  			</div>
+  	  			<div class="results">
+  					  <h3 class="page-subtitle"><?php echo $results_header; ?></h3>
+  					  <?php echo $results_content; ?>
+  	  			</div>
+          </div>
+        </div>
+        <!-- LEFT COLUMN SMALL CONTENT -->
+        <div class="row hide-for-medium-up">
+          <div class="small-12 columns">
+            <img src="http://placehold.it/600x200">
+          </div>
+        </div>
+        <!-- END LEFT COLUMN SMALL CONTENT -->
+	    </div>
+	    <!-- END LEFT COLUMN -->
 
 	    <!-- RIGHT COLUMN -->
 	    <div class="small-12 medium-5 columns hide-for-small">
-	        <img src="http://placehold.it/500x600">    
-	    </div><!-- end right column -->  
-	</div>
-</div><!-- end content -->
+	        <img src="<?php echo get_template_directory_uri();?>/library/images/infographics/<?php echo $case_study_image_url; ?>">    
+	    </div>
+	    <!-- END RIGHT COLUMN -->  
+	  </div>
+  </div>
+  <!-- END CASE STUDY INFORMATION -->
+  
+  <!-- HIDE CONTACT CTA ON SMALL -->
+  <div class="row hide-for-small">
+    <?php include 'partials/contact-cta.php'; ?>
+  </div>
 
-<div class="row" class="hr-row">
-  	<hr>
-</div>
-
-<!-- curious above blocks for medium up -->
-<div class="row hide-for-small">
-
-</div><!-- end curius before blocks-->
-
-<div class="row" class="hr-row">
-  	<hr class="show-for-medium-up">
-</div>
-
-<!-- Blocks Areas Of Expertise row-->
-<div class="row" id="row3">
-
-</div><!--end row3 div-->
-
-
+  <?php 
+  include 'partials/areas-of-expertise.php';   
+  ?>
+    
 <?php get_footer('curious'); ?>

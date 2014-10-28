@@ -24,7 +24,17 @@
 		<!-- LATO FONT -->
 		<link href='//fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 		<!-- JS FILE -->
-
+		
+		<script src="//use.typekit.net/asl7ops.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+    <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    
+    <?php if (is_page(78)){ ?>    
+    
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCzaHSg_cUeVkiumeGf9c2nAAlun3Idn5o&sensor=false"></script>
+    
+    <?php } ?>
+    
 	</head>
 
 	<body <?php body_class(); ?>>
