@@ -21,7 +21,8 @@ $case_studies = CFS()->get('case_study_loop');
   
   <!-- HEADER BACKGROUND -->
   <div class="header-bg">
-    <video autoplay loop poster="<?php echo get_template_directory_uri(); ?>/library/images/headers/<?php echo $header_image; ?>" id="headerbgvid">
+    <img class="hide-for-small hide-for-medium-up" src="<?php echo get_template_directory_uri(); ?>/library/images/headers/<?php echo $header_image; ?>" />
+    <video class="hide-for-small" autoplay loop poster="<?php echo get_template_directory_uri(); ?>/library/images/headers/<?php echo $header_image; ?>" id="headerbgvid">
       <source src="<?php echo get_template_directory_uri(); ?>/library/images/headers/<?php echo $header_video; ?>" type="video/mp4">
     </video>
   </div>
@@ -29,8 +30,8 @@ $case_studies = CFS()->get('case_study_loop');
   
   <!-- HEADERS ROW -->
   <div class="row">
-  	<div class="small-12 columns">
-    	<div class="small-12 small-centered columns">
+  	<div class="small-10 medium-12 small-centered columns">
+    	<div class="small-12 medium-12 small-centered medium-centered columns">
   			<h1 class="page-title"><?php echo $header ?></h1>
         <h2 class="page-title-subheader"><?php echo $sub_header ?></h2>
       </div>
@@ -51,7 +52,7 @@ $case_studies = CFS()->get('case_study_loop');
         $results_url = $study['results_href'];
   	?>
   	<!-- CASE STUDY - <?php echo $study_header; ?> -->
-    <div class="row small-12 medium-10 medium-centered columns case-study">
+    <div class="row small-10 medium-10 small-centered medium-centered columns case-study">
   		<div class="small-12 medium-6 columns left-content">
   			<a href="<?php echo $results_url; ?>"><img src="<?php echo get_template_directory_uri().'/library/images/infographics/'. $study_infographic_url; ?>" alt="study infographic"></a>
   		</div>

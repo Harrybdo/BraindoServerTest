@@ -1,35 +1,41 @@
-<?php get_header(); ?>
-			
-			<div id="content">
+<?php
+/*
+Template Name: 404
+*/
+get_header();
+?>
 
-				<div id="inner-content" class="row clearfix">
-			
-					<div id="main" class="large-8 medium-8 columns first clearfix" role="main">
+<!-- FULL SCREEN BACKGROUND -->
+<div class="background">
+  <video class="hide-for-small"autoplay loop poster="<?php echo get_template_directory_uri(); ?>/library/images/headers/home.jpg" id="bgvid">
+	  	<source src="<?php echo get_template_directory_uri(); ?>/library/images/headers/home.jpg" type="video/mp4">
+  </video>
+  <video class="hide-for-small"autoplay loop poster="<?php echo get_template_directory_uri(); ?>/library/images/headers/home.jpg" id="bgvid">
+  </video>
+</div>
+<!-- END OF FULL SCREEN BACKGROUND -->
 
-						<article id="post-not-found" class="hentry clearfix">
-						
-							<header class="article-header">
-								<h1><?php _e("Epic 404 - Article Not Found", "jointstheme"); ?></h1>
-							</header> <!-- end article header -->
-					
-							<section class="entry-content">
-								<p><?php _e("The article you were looking for was not found, but maybe try looking again!", "jointstheme"); ?></p>
-							</section> <!-- end article section -->
+<!-- PAGE WRAPPER -->
+<div class="page-wrapper">
+  
+  <?php include 'partials/top-nav.php' ?>
+  
+  <!-- HEADERS ROW -->
+  <div class="row homepage-header">
+  	<div class="small-12 columns">
+      <h1 class="page-title">404 ERROR :(</h1>
+      <center><p>(The page you requested does not exist)</p></center>
+      <br />
+      <br />
+      <center><h4> Just click the logo to go home. Don't worry, we won't tell anyone about this little mishap. </h4></center>
+      <br />
+  	</div>
+  </div>
+  <!-- END OF HEADERS ROW -->
 
-							<section class="search">
-							    <p><?php get_search_form(); ?></p>
-							</section> <!-- end search section -->
-						
-							<footer class="article-footer">
-							    <p><?php _e("This is the 404.php template.", "jointstheme"); ?></p>
-							</footer> <!-- end article footer -->
-					
-						</article> <!-- end article -->
-			
-					</div> <!-- end #main -->
+<?php 
 
-				</div> <!-- end #inner-content -->
-    
-			</div> <!-- end #content -->
+  
+?>  
 
-<?php get_footer(); ?>
+<?php get_footer('homepage'); ?>

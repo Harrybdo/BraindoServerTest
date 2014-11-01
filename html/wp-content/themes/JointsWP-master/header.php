@@ -38,3 +38,18 @@
 	</head>
 
 	<body <?php body_class(); ?>>
+  	<script>
+      // GTM Base Tag
+      function _loadTagManager(dataLayerVar, id) {
+        window[dataLayerVar] = window[dataLayerVar] || [];
+        window[dataLayerVar].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js"
+        });
+        var gtmScript = document.createElement("script");
+        gtmScript.async = true;
+        gtmScript.src = "//www.googletagmanager.com/gtm.js?id=" + id + "&l=" + dataLayerVar;
+        document.getElementsByTagName("head")[0].appendChild(gtmScript);
+      }
+      if (!window.coreDataLayer) _loadTagManager("coreDataLayer", "GTM-MWCND8");
+    </script>

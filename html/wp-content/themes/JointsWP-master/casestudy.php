@@ -16,8 +16,8 @@ $header = CFS()->get('page_header');
 $paragraphs = CFS()->get('left_column_paragraph_loop');
 $case_study_image_url = CFS()->get('case_study_image_url');
 
-$background_image = CFS()->get('background_image');
-$background_video = CFS()->get('background_video');
+$header_image = CFS()->get('background_image');
+$header_video = CFS()->get('background_video');
 
 ?>
 
@@ -28,17 +28,24 @@ $background_video = CFS()->get('background_video');
   
   <!-- HEADER BACKGROUND -->
   <div class="header-bg">
-    <video autoplay loop poster="<?php echo get_template_directory_uri(); ?>/library/images/headers/<?php echo $background_image; ?>" id="headerbgvid">
-      <source src="<?php echo get_template_directory_uri(); ?>/library/images/headers/<?php echo $background_video; ?>" type="video/mp4">
+    <img class="hide-for-small hide-for-medium-up" src="<?php echo get_template_directory_uri(); ?>/library/images/headers/<?php echo $header_image; ?>" />
+    <video class="hide-for-small" autoplay loop poster="<?php echo get_template_directory_uri(); ?>/library/images/headers/<?php echo $header_image; ?>" id="headerbgvid">
+      <source src="<?php echo get_template_directory_uri(); ?>/library/images/headers/<?php echo $header_video; ?>" type="video/mp4">
     </video>
   </div>
   <!-- END HEADER BACKGROUND -->
   
   <!-- HEADERS ROW -->
   <div class="row">
-  	<div class="small-12 columns">
-    	<div class="small-12 small-centered columns">
-  			<h1 class="page-title"><?php echo $header ?></h1>
+  	<div class="small-10 medium-12 small-centered columns">
+    	<div class="small-12 medium-12 small-centered columns">
+  		  <?php if (strlen($header) > 30) { ?>
+  			<h1 class="page-title extra-extended-title"><?php echo $header; ?></h1>  	
+      	<?php } else if (strlen($header) > 20) { ?>
+  			<h1 class="page-title extended-title"><?php echo $header; ?></h1>
+        <?php } else { ?>
+   			<h1 class="page-title"><?php echo $header; ?></h1>
+   			<?php } ?>
         <h2 class="page-title-subheader"><?php echo $sub_header ?></h2>
       </div>
   	</div>
@@ -48,9 +55,9 @@ $background_video = CFS()->get('background_video');
 
   <!-- CASE STUDY INFORMATION -->
   <div class="row case-study-information">
-  	<div class="small-12 columns">
+  	<div class="small-10 small-centered columns">
     	<!-- LEFT COLUMN-->
-    	<div class="small-12 medium-7 columns">
+    	<div class="small-12 medium-6 small-centered medium-uncentered columns">
   			<div class="row">
 	  			<div class="small-12 columns">
   	  			<div class="challenge">
@@ -69,8 +76,8 @@ $background_video = CFS()->get('background_video');
         </div>
         <!-- LEFT COLUMN SMALL CONTENT -->
         <div class="row hide-for-medium-up">
-          <div class="small-12 columns">
-            <img src="http://placehold.it/600x200">
+          <div class="small-12 columns small-infographic-panel">
+	        <img src="<?php echo get_template_directory_uri();?>/library/images/infographics/<?php echo $case_study_image_url; ?>">    
           </div>
         </div>
         <!-- END LEFT COLUMN SMALL CONTENT -->
@@ -78,7 +85,7 @@ $background_video = CFS()->get('background_video');
 	    <!-- END LEFT COLUMN -->
 
 	    <!-- RIGHT COLUMN -->
-	    <div class="small-12 medium-5 columns hide-for-small">
+	    <div class="small-12 medium-6 columns hide-for-small mup-infographic-panel">
 	        <img src="<?php echo get_template_directory_uri();?>/library/images/infographics/<?php echo $case_study_image_url; ?>">    
 	    </div>
 	    <!-- END RIGHT COLUMN -->  
@@ -95,4 +102,4 @@ $background_video = CFS()->get('background_video');
   include 'partials/areas-of-expertise.php';   
   ?>
     
-<?php get_footer('curious'); ?>
+<?php get_footer('homepage'); ?>

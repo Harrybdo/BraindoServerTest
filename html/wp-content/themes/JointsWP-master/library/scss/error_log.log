@@ -3,3 +3,14 @@
 10/28/14 2:08:56: style.scss - parse error: failed at `padding ` /app/braindo/html/wp-content/themes/JointsWP-master/library/scss/_services.scss on line 7
 10/28/14 6:20:15: style.scss - parse error: failed at `max-width: : 100%; ` /app/braindo/html/wp-content/themes/JointsWP-master/library/scss/_homepage.scss on line 23
 10/28/14 6:20:51: style.scss - parse error: failed at `max-width: : 100%; ` /app/braindo/html/wp-content/themes/JointsWP-master/library/scss/_homepage.scss on line 23
+10/29/14 1:57:01: style.scss - unclosed block: failed at `` /app/braindo/html/wp-content/themes/JointsWP-master/library/scss/_footer.scss on line 61
+10/29/14 2:52:56: style.scss - parse error: failed at `{` /app/braindo/html/wp-content/themes/JointsWP-master/library/scss/_expertiseblocks.scss on line 121
+10/29/14 2:53:19: style.scss - parse error: failed at `{` /app/braindo/html/wp-content/themes/JointsWP-master/library/scss/_expertiseblocks.scss on line 121
+10/29/14 2:54:55: style.scss - parse error: failed at `{` /app/braindo/html/wp-content/themes/JointsWP-master/library/scss/_expertiseblocks.scss on line 121
+10/29/14 2:55:21: style.scss - parse error: failed at `{` /app/braindo/html/wp-content/themes/JointsWP-master/library/scss/_expertiseblocks.scss on line 121
+10/29/14 2:56:55: style.scss - parse error: failed at `{` /app/braindo/html/wp-content/themes/JointsWP-master/library/scss/_expertiseblocks.scss on line 121
+10/29/14 2:57:24: style.scss - parse error: failed at `{` /app/braindo/html/wp-content/themes/JointsWP-master/library/scss/_expertiseblocks.scss on line 121
+10/29/14 2:58:55: style.scss - parse error: failed at `{` /app/braindo/html/wp-content/themes/JointsWP-master/library/scss/_expertiseblocks.scss on line 121
+10/29/14 2:59:25: style.scss - parse error: failed at `{` /app/braindo/html/wp-content/themes/JointsWP-master/library/scss/_expertiseblocks.scss on line 121
+10/29/14 3:00:57: style.scss - parse error: failed at `{` /app/braindo/html/wp-content/themes/JointsWP-master/library/scss/_expertiseblocks.scss on line 121
+10/29/14 3:01:25: style.scss - unexpected }: failed at `@media only screen and (min-width: 40.063em) {` /app/braindo/html/wp-content/themes/JointsWP-master/library/scss/_expertiseblocks.scss on line 204

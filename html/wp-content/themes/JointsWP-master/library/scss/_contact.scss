@@ -41,6 +41,11 @@
         font-weight:700;
       }
     }
+    
+    #thanks {
+      margin:4rem 0;
+    }
+    
   }
   
   .join-the-team {
@@ -68,5 +73,24 @@
     margin:1rem 0 0 0;
     width:400px;
     height:300px;
+  }
+} 
+
+@media all and (max-width:40em){
+  .contact-us {
+    margin:1rem auto;
+    
+    #googleMap{
+      max-width:100%;
+      heigh:auto;
+    }
+    .join-the-team {
+      padding:0 0 2rem 0;
+      margin:2rem 0;
+      border-bottom:2px solid $primary-color;
+    }
+  }
+  #contact-social-list{
+    margin-left:2.5rem;
   }
 }

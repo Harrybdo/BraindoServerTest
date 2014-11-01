@@ -2,6 +2,8 @@
 
 $expertise_header = CFS()->get('expertise_header',21); 
 $blocks = CFS()->get('expertise_block_loop',21);
+$contact_cta_link_text = CFS()->get('contact_cta_link_text',21);
+$contact_cta_link_href = CFS()->get('contact_cta_link_href',21);
 $blocklength = count($blocks);
 $i = 0;
 
@@ -9,7 +11,7 @@ $i = 0;
 
 <!-- AREAS OF EXPERTISE -->
 <div class="row">
-	<div class="small-12 columns areas-of-expertise">
+	<div class="small-10 medium-12 small-centered columns areas-of-expertise">
   	<?php if (is_page(27)){} else { ?>
 		<h3 class="expertise-block-title"><?php echo $expertise_header; ?></h3>
     <?php } ?>
@@ -24,12 +26,12 @@ $i = 0;
   	  ?>
       <li>
       	<a href="<?php echo $href;?>">
-		      <div class="expertiseBlock" id="expertiseBlock<?php echo $i; ?>">
-  		      <?php if (is_page(27)){ ?>
-    		    <div class="nohover-state services-hover">
-  		      <?php } else { ?>
-		        <div class="nohover-state">
-		        <?php } ?>
+          <?php if (is_page(27)){ ?>
+		      <div class="expertiseBlock services-hover" id="expertiseBlock<?php echo $i; ?>">
+  		      <?php } else{ ?>
+            <div class="expertiseBlock non-services" id="expertiseBlock<?php echo $i; ?>">
+            <?php } ?>
+  		      <div class="nohover-state">
 		          	<img src="<?php echo get_template_directory_uri(); ?>/library/images/expertiseblocks/<?php echo $no_hover_image_url; ?>" height="80" width="120">
                 <span class="nohover-text"><?php echo $no_hover_text; ?></span>
 		        </div>
@@ -49,8 +51,27 @@ $i = 0;
 		      </div>
         </a>
       </li>
-      <div class="small-slider">
-              <span>Hey what's up yo</span>
+      <div class="small-slider" id="mobilePanel<?php echo str_replace('/', '', $blocks[$i]['no_hover_text']); ?>">
+        <div class="slider-content">
+          <p class="extended-description"><?php echo $block['expanded_description']; ?></p>
+          <ul class="extended-list-items">
+  				  <?php
+  					foreach($block['hover_list_items'] as $li){
+  		       	$list_item_text = $li['list_item_text'];
+  						$list_item_href = $li['list_item_link'];
+  		
+  						if(strlen($list_item_href) == 0){
+  		      ?>
+  		      <li><?php echo $list_item_text; ?></li>
+  					<?php }else{ ?>
+  					<li><a href="<?php echo $list_item_href; ?>"><?php echo $list_item_text; ?></a></li>
+  					<?php 
+  						} 
+  					}
+  					?>
+  				</ul>
+          <a href="<?php echo $contact_cta_link_href; ?>" class="contact-cta-button"><?php echo $contact_cta_link_text; ?></a>
+        </div>
       </div>
      <?php $i++; } ?>
   	</ul>

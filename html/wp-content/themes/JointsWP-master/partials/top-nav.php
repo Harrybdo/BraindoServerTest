@@ -13,7 +13,7 @@ $num_buttons = count($social_buttons);
 	 		<ul class="title-area">
 	 			<a href="/">
   	 			<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo.png" alt="BrainDo">
-  	 			</a>
+  	 		</a>
 	 		</ul>
 		  <ul class="right text-center">
 			 	<?php 
@@ -34,17 +34,21 @@ $num_buttons = count($social_buttons);
   <div class="show-for-small-only">
 	 	<nav class="top-bar" data-topbar role="navigation">
 	 		<ul class="title-area">
-	 			<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo.png">
+  	 		<a href="/">
+	 			 <img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/mobile-logo-color.png">
+  	 		</a>
 	   	</ul>            
       <ul class="right">
-			  <a href="#" data-reveal-id="navModal">Menu</a>
+			  <a href="#" class="modal-reveal-button" data-reveal-id="navModal">Menu</a>
 		  </ul>
 		</nav>
 		<!-- NAVIGATION MODAL -->
 		<div id="navModal" class="reveal-modal" data-reveal>
      	<div class="row">
 				<div class="small-12 columns modal-title">
-					<img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/logo-white.png" id="navModalLogo">
+					<a href="/">
+					  <img src="<?php echo get_template_directory_uri(); ?>/library/images/logos/mobile-menu-logo.png" id="navModalLogo">
+					</a>
 				</div>
       </div>
       <div class="row">
@@ -59,6 +63,9 @@ $num_buttons = count($social_buttons);
 			  			<a href="<?php echo $linkhref; ?>"><?php echo $linktext; ?></a>
 			  		</li>
             <?php } ?>
+            <li>
+			  			<a href="/">Home</a>
+			  		</li>
 				  </ul>
 			  </div>
 		  </div>          	
@@ -69,7 +76,7 @@ $num_buttons = count($social_buttons);
 			  			$image = $social_button['social_image'];
 							$href = $social_button['social_href'];
             ?>
-            <li><img src="<?php echo $image; ?>" href="<?php echo $href; ?>"></li>
+            <li><a href="<?php echo $href; ?>"><img class ="social-icon" src="<?php echo get_template_directory_uri() . $image; ?>"></a></li>
 						<?php } ?>	
 				  </ul>
 			  </div>

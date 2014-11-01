@@ -22,8 +22,10 @@ var braindoDarkBlue = "#014048";
 var braindoGreen = "#557701";
 var braindoTeal = "#0080a5";
 
+var pastExpertiseSlider;
 var pastActiveSlider;
 var slideState = [];
+var currentBlock;
 
 function getPixels(rem){
   var htmlFontSize = $("html").css('font-size');
@@ -36,49 +38,143 @@ function setNavigation() {
   path = path.replace(/\/$/, "");
   path = decodeURIComponent(path);
 
-  $("nav.top-bar ul li a").each(function () {
+  $("nav.top-bar ul li a, .navModalList li a").each(function () {
       var href = $(this).attr('href');
-      if (path.substring(0, href.length) === href) {
+      if (href == "/"){
+        
+      }
+      if (path.substring(0, href.length) === href && href!== "/") {
           $(this).closest('li').addClass('active');
       }
   });
+
 }
 
 if(isSmall){
+  $(document).on('open.fndtn.reveal', '[data-reveal]', function () {
+    $(document).bind('touchmove',function(e){
+      e.preventDefault(); 
+    });
+  });
+  
+  $(document).on('close.fndtn.reveal', '[data-reveal]', function () {
+    $(document).unbind('touchmove');
+  });
+  
   $(".expertiseBlock").click(function(e){
-      e.preventDefault();
-      $(this).closest("li").next(".small-slider").slideToggle(500,function(){
-         if ($(this).is(':visible'))
-         $(this).css('display','inline-block');
+    e.preventDefault();
+    if(typeof pastExpertiseSlider != typeof undefined){
+      $(pastExpertiseSlider).slideUp(500,function(){
+        pastExpertiseSlider = null;
       });
-      //attr('style','display: block !important');
+      if($(pastExpertiseSlider).attr("id") !== $(this).closest("li").next(".small-slider").attr("id")){
+        $(this).closest("li").next(".small-slider").slideDown(500,function(){
+            pastExpertiseSlider = $(this);
+        });
+      }
+    }else{
+      $(this).closest("li").next(".small-slider").slideDown(500,function(){
+        pastExpertiseSlider = $(this);
+      });
+    }
   }); 
 }
 
+/*
 $(".employee-block").click(function(){	
-	var blockNumber = $(this).attr("id").match(/employee-block-(\d\d?)/i)[1];
-	slideState[blockNumber] = false;
-	
-	if(slideState.indexOf(true) != -1){
-    //do nothing, something is sliding
-  }else{
-    if(typeof pastActiveSlider != typeof undefined){
-  		$(pastActiveSlider).slideUp(1000,function(){
-  			$("div[id='employee-slider-"+blockNumber+"']").slideDown(1000,function(){
-    		  slideState[blockNumber] = false;
-    		  pastActiveSlider = $("div[id='employee-slider-"+blockNumber+"']");
-    		});
-  		});
-  		slideState[blockNumber] = true;
+  if(!isSmall){
+  	var blockNumber = $(this).attr("id").match(/employee-block-(\d\d?)/i)[1];
+  	slideState[blockNumber] = false;
+  	
+  	if(slideState.indexOf(true) != -1){
+    	console.log("something sliding!");
+      //do nothing, something is sliding
     }else{
-  		$("div[id='employee-slider-"+blockNumber+"']").slideDown(1000,function(){
-    		slideState[blockNumber] = false;
-    		pastActiveSlider = $("div[id='employee-slider-"+blockNumber+"']");
-  		});
-  		slideState[blockNumber] = true;
+      
+      if(typeof pastActiveSlider != typeof undefined){
+        if($(pastActiveSlider).attr("id") == $("div[id='employee-slider-"+blockNumber+"']").attr("id")){
+          console.log("same");
+          $("div[id='employee-slider-"+blockNumber+"']").slideToggle(500,function(){
+            slideState[blockNumber] = false;
+          });
+          pastActiveSlider = undefined;
+          slideState[blockNumber] = true;
+        }else{
+      		$(pastActiveSlider).animate({opacity: 0},1,function(){
+        		
+        		$(pastActiveSlider).css("position","absolute");
+        		
+        		$("div[id='employee-slider-"+blockNumber+"']").slideDown(500,function(){
+          		pastActiveSlider = $("div[id='employee-slider-"+blockNumber+"']");
+          		slideState[blockNumber] = false;
+            });
+            
+            $(pastActiveSlider).slideToggle(1);
+            $(pastActiveSlider).css("opacity","1");
+            $(pastActiveSlider).css("position","static");
+    
+    
+      		});
+      		
+      		slideState[blockNumber] = true;
+        }
+    		
+      }else{
+    		$("div[id='employee-slider-"+blockNumber+"']").slideToggle(500,function(){
+      		slideState[blockNumber] = false;
+      		pastActiveSlider = $("div[id='employee-slider-"+blockNumber+"']");
+    		});
+    		slideState[blockNumber] = true;
+      }
+    }
+  }else{ //SMALL
+    var blockNumber = $(this).attr("id").match(/employee-block-(\d\d?)/i)[1];
+  	slideState[blockNumber] = false;
+  	
+  	if(slideState.indexOf(true) != -1){
+    	console.log("something sliding!");
+      //do nothing, something is sliding
+    }else{
+      
+      if(typeof pastActiveSlider != typeof undefined){
+        if($(pastActiveSlider).attr("id") == $("div[id='employee-slider-small-"+blockNumber+"']").attr("id")){
+          console.log("same");
+          $("div[id='employee-slider-small-"+blockNumber+"']").slideToggle(500,function(){
+            slideState[blockNumber] = false;
+          });
+          pastActiveSlider = undefined;
+          slideState[blockNumber] = true;
+        }else{
+      		$(pastActiveSlider).animate({opacity: 0},1,function(){
+        		
+        		$(pastActiveSlider).css("position","absolute");
+        		
+        		$("div[id='employee-slider-small-"+blockNumber+"']").slideDown(500,function(){
+          		pastActiveSlider = $("div[id='employee-slider-small-"+blockNumber+"']");
+          		slideState[blockNumber] = false;
+            });
+            
+            $(pastActiveSlider).slideToggle(1);
+            $(pastActiveSlider).css("opacity","1");
+            $(pastActiveSlider).css("position","static");
+    
+    
+      		});
+      		
+      		slideState[blockNumber] = true;
+        }
+    		
+      }else{
+    		$("div[id='employee-slider-small-"+blockNumber+"']").slideToggle(500,function(){
+      		slideState[blockNumber] = false;
+      		pastActiveSlider = $("div[id='employee-slider-small-"+blockNumber+"']");
+    		});
+    		slideState[blockNumber] = true;
+      }
     }
   }
 });
+*/
 
 function getQueryVariable(variable, defaultQuery) {
     var query = window.location.search.substring(1);
@@ -107,7 +203,7 @@ function getBlock(blockName){
       return $("#expertiseBlock2");
       break;
       
-    case "searchmedia":
+    case "search":
       return $("#expertiseBlock3");
       break;
     
@@ -120,22 +216,47 @@ function getBlock(blockName){
   } 
 }
 
+if($("body").hasClass("page-template-services-php")){
+  $(window).resize(function(e){
+    if(Modernizr.mq('only all and (max-width: 40em)')){
+      location.reload();
+    }
+    var xPos = $(currentBlock).position().left;
+    var boxWidth = $(currentBlock).width();
+    $(".triangle").css("margin","0 0 0 "+(xPos+(boxWidth/2)-20)+"px");
+  });
+}
+
 function _serviceDisplay(param){
-	var service = getQueryVariable(param,"strategy");
-	
-	var currentBlock = getBlock(service);
-  var xPos = $(currentBlock).position().left;
-  var boxWidth = $(currentBlock).width();
-	
-	$(".servicePanel").each(function(){
-		if($(this).attr("id").match(new RegExp(service,"i"))){
-  		//alert("match!");
-			$(this).attr('style','display: block !important');
-			$(".triangle").css("margin","0 0 0 "+(xPos+(boxWidth/2)-20)+"px");
-			$(".triangle").css("border-color", getColorUpdate(service)+" transparent");
-      $(".expertise-expanded").css("border-color",getColorUpdate(service));			
-		}
-	});
+    var service = getQueryVariable(param,"strategy");
+  	currentBlock = getBlock(service);
+  if(!isSmall){
+    var xPos = $(currentBlock).position().left;
+    var boxWidth = $(currentBlock).width();
+  	$(".expertiseBlock").each(function(){
+    	  if($(this).attr("id") !== $(currentBlock).attr("id")){
+      	  $(this).css("opacity",".25");
+    	  }else{
+      	  $(this).css("opacity","1");
+    	  }
+  	});
+  	$(".servicePanel").each(function(){
+  		if($(this).attr("id").match(new RegExp(service,"i"))){
+    		//alert("match!");
+  			$(this).attr('style','display: block !important');
+  			$(".triangle").css("margin","0 0 0 "+(xPos+(boxWidth/2)-20)+"px");
+  			$(".triangle").css("border-color", getColorUpdate(service)+" transparent");
+        $(".expertise-expanded").css("border-color",getColorUpdate(service));
+  		}
+  	});
+  }else{
+    $(".small-slider").each(function(){
+      if($(this).attr("id").match(new RegExp(service,"i"))){
+        $(this).show();
+        pastExpertiseSlider = $(this);
+      }
+    })
+  }
 }
 
 function getServicePanel(blockNum){
@@ -180,11 +301,21 @@ function getColorUpdate(clickedBlock){
   
 }
 
-if(location.pathname.match(/services/i)){
-  $(".expertiseBlock").click(function(event){
-    event.preventDefault();
-  	var clickedBlock = $(this).attr("id").match(/expertiseBlock(\d)/i)[1];
-
+if($("body").hasClass("page-template-services-php") && !isSmall){
+  $(".expertiseBlock").click(function(e){
+    var clickedBlock = $(this).attr("id").match(/expertiseBlock(\d)/i)[1];
+    var clickedBlockElement = $(this);
+    currentBlock = $(this);
+    $(".expertiseBlock").closest("a").click(function(e){
+      e.preventDefault();
+    });
+    $(this).css("opacity","1");
+    $(".expertiseBlock").each(function(){
+      if($(this).attr("id") !== $(clickedBlockElement).attr("id")){
+            $(this).css("opacity",".25"); 
+      }
+    });
+    
   	//fade out current services
   	$(".servicePanel").animate({opacity:0}, 1000, function() {
       $(".servicePanel").attr('style','display: none !important');
@@ -196,12 +327,9 @@ if(location.pathname.match(/services/i)){
   	var boxWidth = $(this).width();
   	
     $(".triangle").animate({margin:"0 0 0 "+(xPos+(boxWidth/2)-20), borderTopColor: getColorUpdate(clickedBlock)},1000, function(){
-            $(".servicePanel").animate({opacity:1}, 500);
+      $(".servicePanel").animate({opacity:1}, 500);
     });
     $(".expertise-expanded").animate({borderTopColor: getColorUpdate(clickedBlock)},1000);	
-  
-  	//alert(getMarginUpdate(clickedBlock));
-  	
   });
 }
 
@@ -224,17 +352,6 @@ if(location.pathname.match(/contact/i)){
   	};
   			
   	map = new google.maps.Map(document.getElementById("googleMap"),mapOptions);
-  	
-  	var infoWindowContent = '<div class="info-window">'+
-  		'<div class="mapAddress">'+
-  		'<div class="cityName">BrainDo</div>'+
-  		'<div class="cityAddress">417 North 8th St, Suite 201<br>Philadelphia, PA 19123</div>'+
-  		'</div>'+
-  		'</div>';
-  		
-  	var infoWindow = new google.maps.InfoWindow({
-  		content: infoWindowContent
-  	});
   				
   	var marker = new google.maps.Marker({
   		position: myLatLng,

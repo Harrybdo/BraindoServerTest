@@ -1,12 +1,37 @@
 /************* FOOTER *************/
+ul.small-bottom-nav-links{
+  list-style-type: none;
+  li{
+    display:inline;
+    font-size: .6rem;
+    color:$tertiary-color;
+  }
+}
 
-#footer-row{
+footer{
+  text-align: center;
+}
+
+.small-footer-text{
+   border-top:2px solid #3badb8;
+   color: $tertiary-color;
+}
+
+#footerSmall{
   border-top:2px solid #3badb8;
   color:#424242;
+}
+#footer-row{
+  //border-top:2px solid #3badb8;
+  color:#424242;
   
+  .small-footer-text{
+    padding-top:1rem;
+  }
 	ul{
 		margin: 0 auto;
 		font-size:.75rem;
+		list-style-type: none;
 		
 		li{
 			display:inline-block;
@@ -27,7 +52,11 @@
   
   footer{
 		text-align:left;
-
+    
+    #footer-row{
+      border-top:2px solid #3badb8;
+      color:#424242;
+    }
 		#footerLeft{ 
   		color:$tertiary-color;
   		margin:1rem 0 0 1rem;

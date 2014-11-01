@@ -12,8 +12,10 @@ $background_video = CFS()->get('background_video');
 
 <!-- FULL SCREEN BACKGROUND -->
 <div class="background">
-  <video autoplay loop poster="<?php echo get_template_directory_uri(); ?>/library/images/headers/<?php echo $background_image ?>" id="bgvid">
+  <video class="hide-for-small"autoplay loop poster="<?php echo get_template_directory_uri(); ?>/library/images/headers/<?php echo $background_image ?>" id="bgvid">
 	  	<source src="<?php echo get_template_directory_uri(); ?>/library/images/headers/<?php echo $background_video ?>" type="video/mp4">
+  </video>
+  <video class="hide-for-medium-up"autoplay loop poster="<?php echo get_template_directory_uri(); ?>/library/images/headers/<?php echo $background_image ?>" id="bgvid">
   </video>
 </div>
 <!-- END OF FULL SCREEN BACKGROUND -->

@@ -40,6 +40,9 @@ $expanded_description = $block['expanded_description'];
 $block_list_items = $block['hover_list_items'];
 $contact_cta_text = CFS()->get('contact_cta_text',21);
 $contact_cta_link_text = CFS()->get('contact_cta_link_text',21);
+$contact_cta_link_href = CFS()->get('contact_cta_link_href',21);
+$header_image = CFS()->get('background_image');
+$header_video = CFS()->get('background_video');
 ?>
 
 <!-- PAGE WRAPPER -->
@@ -49,28 +52,34 @@ $contact_cta_link_text = CFS()->get('contact_cta_link_text',21);
   
   <!-- HEADER BACKGROUND -->
   <div class="header-bg">
-    <video autoplay loop poster="<?php echo get_template_directory_uri(); ?>/library/images/headers/CS-analytics-fast.jpg" id="headerbgvid">
-      <source src="<?php echo get_template_directory_uri(); ?>/library/images/headers/CS+analytics+fast+masked.mp4" type="video/mp4">
+    <img class="hide-for-small hide-for-medium-up" src="<?php echo get_template_directory_uri(); ?>/library/images/headers/<?php echo $header_image; ?>" />
+    <video class="hide-for-small" autoplay loop poster="<?php echo get_template_directory_uri(); ?>/library/images/headers/<?php echo $header_image; ?>" id="headerbgvid">
+      <source src="<?php echo get_template_directory_uri(); ?>/library/images/headers/<?php echo $header_video; ?>" type="video/mp4">
     </video>
   </div>
   <!-- END HEADER BACKGROUND -->
   
   <!-- HEADERS ROW -->
   <div class="row">
-  	<div class="small-12 columns">
-    	<div class="small-10 small-centered columns">
-  			<h1 class="page-title"><?php echo $header ?></h1>
+  	<div class="small-10 medium-12 small-centered columns">
+    	<div class="small-12 medium-12 medium-centered small-centered columns">
+  		  <?php if (strlen($header) > 30) { ?>
+  			<h1 class="page-title extra-extended-title"><?php echo $header; ?></h1>  	
+      	<?php } else if (strlen($header) > 20) { ?>
+  			<h1 class="page-title extended-title"><?php echo $header; ?></h1>
+        <?php } else { ?>
+   			<h1 class="page-title"><?php echo $header; ?></h1>
+   			<?php } ?>
         <h2 class="page-title-subheader"><?php echo $sub_header ?></h2>
       </div>
   	</div>
   </div>
   <!-- END OF HEADERS ROW -->
 
-
   <?php include 'partials/areas-of-expertise.php' ?>
   
   <!-- SERVICE PANEL -->
-  <div class="services">
+  <div class="services hide-for-small">
     <div class="row expertise-expanded">
       <span class="triangle"></span>
       <?php 
@@ -84,7 +93,7 @@ $contact_cta_link_text = CFS()->get('contact_cta_link_text',21);
   				<div class="medium-4 medium-offset-1 columns left-service">
   					<h3 class="extended-description-title"><?php echo $block['no_hover_text']; ?></h3>
   					<p class="extended-description"><?php echo $block['expanded_description']; ?></p>
-            <a href="" class="contact-cta-button"><?php echo $contact_cta_link_text; ?></a>
+            <a href="<?php echo $contact_cta_link_href; ?>" class="contact-cta-button"><?php echo $contact_cta_link_text; ?></a>
     	    </div>
   	      <!-- END LEFT SERVICE CONTENT - <?php echo $blocks[$i]['no_hover_text']; ?> -->
   	      <!-- RIGHT SERVICE CONTENT - <?php echo $blocks[$i]['no_hover_text']; ?> --> 

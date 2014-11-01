@@ -31,7 +31,7 @@
 			    <!-- END MEDIUM AND UP FOOTER -->	
 			    <!-- SMALL FOOTER -->
 			    <div class="show-for-small-only">
-            <div class ="small-12 columns" id="footerSmall">
+            <div class ="small-10 small-centered columns" id="footerSmall">
 				    	<?php 
 						    $navlinks = CFS()->get('bottom_nav_loop_small',21);
 						    $navlinkslength = sizeof($navlinks);

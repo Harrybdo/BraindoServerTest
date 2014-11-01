@@ -11,10 +11,15 @@ body,html {
 	color:#878787;
 }
 
-body{
-
+#contact-social-list{
+  li{
+    width:60px;
+  }
 }
-
+.social-icon{
+  width:50px;
+  height: 50px
+}
   
 li{
 	text-align:left;
@@ -28,16 +33,16 @@ h1{
 	text-align:center;
 	
 	&.page-title{
-		font-size: 1.8rem;
+		font-size: 2rem;
 		font-weight: bold;
 		text-transform: uppercase;
-		margin-top: .5rem;
+		margin-top: 0rem;
 	}
 }
 
 h2.page-title-subheader {
 	color:$tertiary-color;
-	font-size: .75rem;
+	font-size: 1rem;
 	text-transform: normal;
 	text-align:center;
 }
@@ -51,20 +56,19 @@ h3{
     opacity:0.15;
     
     img {
-      position: absolute; 
-      top: 0; 
-      left: 0; 
-      right: 0; 
-      bottom: 0; 
-      margin: auto; 
-      min-width: 50%;
-      min-height: 50%;
+      position: absolute;
+      top:0;
+      min-width: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      background-size: cover;
+      overflow-x: hidden;
     }
     video#headerbgvid {
       position: absolute;
       top:0;
-      min-width: 100%;
-      max-height:100px;
+      max-height:1px;
       width: auto;
       height: auto;
       z-index: -100;
@@ -85,7 +89,7 @@ MEDIUM
 		text-align:center;
 		&.page-title{
 			font-size: 2.5rem;
-			margin-top: 1.5rem;
+			margin-top: 0rem;
 		}
   }
   h2.page-title-subheader{
@@ -109,20 +113,20 @@ MEDIUM
       opacity:0.15;
       
       img {
-        position: absolute; 
-        top: 0; 
-        left: 0; 
-        right: 0; 
-        bottom: 0; 
-        margin: auto; 
-        min-width: 50%;
-        min-height: 50%;
+        position: absolute;
+        top:0;
+        min-width: 100%;
+        max-height:150px;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        background-size: cover;
       }
       video#headerbgvid {
         position: absolute;
         top:0;
-        min-width: 50%;
-        max-height:200px;
+        min-width: 100%;
+        max-height:150px;
         width: auto;
         height: auto;
         z-index: -100;
@@ -144,18 +148,26 @@ LARGE
 			text-transform: uppercase;
 			margin-top: 2rem;
 		}
+		&.page-title.extended-title {
+  		font-size:4rem;
+		}
+		&.page-title.extra-extended-title {
+  		font-size:3.4rem;
+		}
 	}
-	
-	.header-background-page {
   
+  h2.page-title-subheader {
+    font-size: 1.6rem;
+  }
+
+  .header-background-page {
+    
     h2.page-title-subheader {
       margin:2.5rem 0 1rem 0;
-      font-size: 1.6rem;
-
-    }
+    }  
     
     .header-bg {
-      opacity:0.15;
+      opacity:0.25;
       
       img {
         position: absolute; 

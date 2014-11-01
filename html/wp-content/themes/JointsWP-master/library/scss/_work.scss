@@ -1,4 +1,3 @@
- // end of media query
 /************* OUR WORK - HOMEPAGE *************/
 .case-studies {
   border-top:1px solid $primary-color;
@@ -68,18 +67,36 @@
 
 /************* OUR WORK - SUB PAGES *************/
 .case-study-information {
-  margin:3rem auto;
+  margin:1rem auto;
   
   h3 {
     text-align:left;
     font-weight:500;
     margin:0.5rem 0;
   }
+  
+  .solution {
+    margin:1.5rem 0;
+  }
+  
+}
+
+.results{
+  ul{
+    font-size: 1rem;
+    list-style-image: url('../images/arrows/arrow-right-light-green.png');
+    line-height: 2rem;
+    margin:0 0 0 1rem;
+  }
 }
 /************* END OF OUR WORK - SUB PAGES *************/
 @media only screen and (min-width: 40.063em) {
-   // end of media query
-/************* OUR WORK - HOMEPAGE *************/
+  /************* OUR WORK - HOMEPAGE *************/
+  
+  .mup-infographic-panel{
+    padding-top: 5rem;
+    padding-left:2rem;
+  }
   .case-studies {
     border-top:1px solid $primary-color;
     
@@ -97,7 +114,7 @@
       }
       
       .right-content {
-        
+        padding:0 0 0 3rem;
         h3 {
           text-align:left;
           font-weight:500;

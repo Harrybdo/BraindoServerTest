@@ -1,10 +1,27 @@
 /************* EXPERTISE BLOCK *************/
+.home {
+  #expertiseBlock0{
+  	background-color:rgba(165,52,0,.9) !important;
+  }
+  #expertiseBlock1{
+  	background-color:rgba(165,136,0,.9) !important;
+  }
+  #expertiseBlock2{
+  	background-color:rgba(1,64,72,.9) !important;
+  }
+  #expertiseBlock3{
+  	background-color:rgba(85,119,1,.9) !important;
+  }
+  #expertiseBlock4{
+  	background-color:rgba(0,128,165,.9) !important;
+  }
+}
 
 .areas-of-expertise{
   border-top:2px solid #3badb8;
   display:block;
   margin:0;
-  padding:1rem 1rem 0 1rem;
+  padding:1rem 0;
 
   h3.expertise-block-title{
 		margin: 1rem 0;
@@ -18,7 +35,7 @@
 		clear: both;
 		text-align:center;
 		color: white;
-		height:3rem;
+		padding:1rem 0;
 		
 		img{
   		display:none;
@@ -90,23 +107,178 @@
 */
 
 .servicePanel {
-	display: none;
+	display: none !important;
+}
+
+.home {
+  
+  .small-slider {
+    
+    .slider-content {
+      background:transparent;
+    }
+  }
 }
 
 .small-slider{
   display:none;  
   margin:0;
   padding:0;
-  height:300px;
-  width:200px;
+  width:100%;
+  
+  .slider-content {
+    //padding:1rem;
+    background:#f8f8f8;
+  }
+  
+  .contact-cta-button {
+    font-size:.75rem;
+    padding:2px 50px 2px 20px;
+    text-transform:uppercase;
+    font-weight:700;
+    width:150px;
+    display:block;
+    margin:0 auto 1rem auto;
+  }
+  
+  .extended-description {
+    font-size:1rem !important;
+    text-align:center;
+  }
+  
+  ul.extended-list-items {
+    font-size:1rem !important;
+    margin:1rem auto;
+    
+    li {
+      a {
+        text-decoration: underline;
+        color:$tertiary-color;
+      }
+    }
+  }
+    
+  &#mobilePanelStrategy {
+    ul.extended-list-items {
+      list-style-image:url('../images/arrows/arrow-right-red.png');
+      width:190px;
+    }
+    .contact-cta-button {
+      background:url("../images/arrows/arrows-right-red.png") no-repeat right center transparent;
+      border:2px solid $braindo-menu-red;
+      color:$braindo-menu-red;         
+        
+      &:hover {
+        background:url("../images/arrows/arrows-right-white.png") no-repeat right center $braindo-menu-red;
+        border:2px solid $braindo-menu-red;
+        color:#fff;  
+      }
+    }
+  }
+    
+  &#mobilePanelAnalytics {
+    ul.extended-list-items {
+      list-style-image:url('../images/arrows/arrow-right-yellow.png');
+      width:180px;
+    }
+    .contact-cta-button {
+      background:url("../images/arrows/arrows-right-white.png") no-repeat right center $braindo-menu-yellow;
+      border:2px solid $braindo-menu-yeow;
+      color:#fff;     
+      
+      &:hover {
+        background:url("../images/arrows/arrows-right-yellow.png") no-repeat right center transparent;
+        border:2px solid $braindo-menu-yellow;
+        color:$braindo-menu-yellow;    
+      }
+    }
+  }
+  
+  &#mobilePanelDevelopment {
+    ul.extended-list-items {
+      list-style-image:url('../images/arrows/arrow-right-dark-blue.png');
+      width:250px;
+    }
+    .contact-cta-button {
+      background:url("../images/arrows/arrows-right-white.png") no-repeat right center $braindo-menu-dark-blue;
+      border:2px solid $braindo-menu-dark-blue;
+      color:#fff;     
+      
+      &:hover {
+        background:url("../images/arrows/arrows-right-dark-blue.png") no-repeat right center transparent;
+        border:2px solid $braindo-menu-dark-blue;
+        color:$braindo-menu-dark-blue;        
+      }
+    }
+  }
+  
+  &#mobilePanelSearchMedia {
+    ul.extended-list-items {
+      list-style-image:url('../images/arrows/arrow-right-green.png');
+      width:120px;
+    }
+    .contact-cta-button {
+      background:url("../images/arrows/arrows-right-white.png") no-repeat right center $braindo-menu-green;
+      border:2px solid $braindo-menu-green;
+      color:#fff;     
+      
+      &:hover {
+        background:url("../images/arrows/arrows-right-green.png") no-repeat right center transparent;
+        border:2px solid $braindo-menu-green;
+        color:$braindo-menu-green;     
+      }
+    }
+  }
+  
+  &#mobilePanelCreative {
+    ul.extended-list-items {
+      list-style-image:url('../images/arrows/arrow-right-teal.png');
+      width:250px;
+    }
+    .contact-cta-button {
+      background:url("../images/arrows/arrows-right-white.png") no-repeat right center $braindo-menu-teal;
+      border:2px solid $braindo-menu-teal;
+      color:#fff;     
+      
+      &:hover {
+        background:url("../images/arrows/arrows-right-teal.png") no-repeat right center transparent;
+        border:2px solid $braindo-menu-teal;
+        color:$braindo-menu-teal;
+      }
+    }
+  }  
 }
+
 @media only screen and (min-width: 40.063em) {
   .areas-of-expertise{
+    padding:1rem 1rem 0 1rem;
+    
     div.expertiseBlock{
   		margin-bottom: 1.5rem;
   		height: 130px;
   		padding:1rem 0;
-  
+      
+      /*
+&#expertiseBlock0 {
+        
+        .hover-state{
+          width:100%;
+          
+          &:hover {
+            
+            ul {
+              margin:1rem 0 0 2rem;
+              width:100%;
+              
+              li {
+                line-height:1.5rem;
+              }
+            }  
+          }
+        }
+      }
+*/
+      
   		img{
     		display:inline-block;
   			width: 120px;
@@ -119,7 +291,8 @@
   			font-weight:700;
   		}
   
-  		&:hover{
+  		/*
+&.non-services:hover{
   			position:relative;
   			
   			.nohover-state{
@@ -141,15 +314,12 @@
   				}
   			}
   		}
-  	}
+*/
+   	}
   }
   
   .small-slider{
     display:none !important;  
-    margin:0;
-    padding:0;
-    height:300px;
-    width:200px;
   }
   
   .services {
@@ -163,7 +333,6 @@
       }
 
       .servicePanel {
-        
         display:none !important;
         
         &#servicePanelStrategy {
@@ -175,14 +344,14 @@
                 color:$braindo-menu-red;
               }
               .contact-cta-button {
-                background:url("../images/arrows/arrows-right-white.png") no-repeat right center $braindo-menu-red;
+                background:url("../images/arrows/arrows-right-red.png") no-repeat right center transparent;
                 border:2px solid $braindo-menu-red;
-                color:#fff;
+                color:$braindo-menu-red;
               
                 &:hover {
-                  background:url("../images/arrows/arrows-right-red.png") no-repeat right center transparent;
+                  background:url("../images/arrows/arrows-right-white.png") no-repeat right center $braindo-menu-red;
                   border:2px solid $braindo-menu-red;
-                  color:$braindo-menu-red;
+                  color:#fff;                
                 }
               }
             }
@@ -367,11 +536,11 @@
             font-size:.75rem;
             padding:2px 50px 2px 20px;
             text-transform:uppercase;
-            font-weight:700
+            font-weight:700;
           }
         }
         .right-service {
-          margin:2rem 0 0 0;
+          margin:0 0 0 0;
           
           ul.extended-list-items {
             li{
@@ -392,7 +561,16 @@
       }
     }
   }
-  
+}
+
+@media only screen and (min-width: 40.063em) { 
+  .areas-of-expertise {
+    
+    .expertiseBlock {
+      //width:175px;
+    }
+    
+  } 
 }
 
 /************* END OF EXPERTISE BLOCK *************/
